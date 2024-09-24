@@ -1,0 +1,14 @@
+{
+  "name": "apps",
+  "version": "1.0.0",
+  "description": "Apps Developed by Neurons.me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "apps"
+  ],
+  "author": "suiGN",
+  "license": "MIT"
+}
