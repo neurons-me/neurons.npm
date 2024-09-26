@@ -235,7 +235,7 @@ www.amazon.ca/shops/delpaismx
 **Instagram:** mdrnchurch
 **Website:** mdrnchurch.com
 **Amazon:**
-**Medium:**
+**Medium:** @suign
 **Linkedin:** https://www.linkedin.com/company/neurons-me
 **Youtube:** @neuron_me
 ---------
@@ -244,7 +244,7 @@ www.amazon.ca/shops/delpaismx
 **Instagram:** mdrnchurch
 **Website:** mdrnchurch.com
 **Amazon:**
-**Medium:**
+**Medium:** @suign
 **Linkedin:** https://www.linkedin.com/company/neurons-me
 **Youtube:** @neuron_me
 ---------
@@ -276,7 +276,7 @@ upport@neurons.me
 **Instagram:** instagram.com/netget.me
 **Website:** https://www.netget.me, netget.site
 **Amazon:** https://www.youtube.com/@neuron_me
-**Medium:**
+**Medium:** @neurons.me
 **Linkedin:** https://www.linkedin.com/company/neurons-me
 **Youtube:** @neuron_me
 **Emails:** 
@@ -286,7 +286,7 @@ upport@neurons.me
 **Instagram:** numb.eers
 **Website:** https://neurons.me
 **Amazon:**
-**Medium:**
+**Medium:** @suign
 **Linkedin:** https://www.linkedin.com/company/neurons-me
 **Youtube:** @neuron_me
 **Emails:** 
@@ -306,7 +306,7 @@ upport@neurons.me
 **Instagram:** _orgboat_
 **Website:** orgboat.com, orgboat.me
 **Amazon:**
-**Medium:**
+**Medium:** @neurons.me
 **Linkedin:** https://www.linkedin.com/showcase/org-boat
 **Youtube:** @OrgBoat
 **Emails:** contact@orgboat.com
@@ -352,7 +352,7 @@ www.amazon.ca/shops/delpaismx
 **Instagram:** https://www.instagram.com/technotheonomics/
 **Website:** https://technotheonomics.com/lander
 **Amazon:**
-**Medium:**
+**Medium:** @neurons.me
 **Linkedin:** https://www.linkedin.com/company/neurons-me
 **Youtube:** @neurons_me
 **Emails:**
