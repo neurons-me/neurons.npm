@@ -8,12 +8,24 @@
     "apps/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start-all": "npm run start --workspaces"
+    "start": "npx pm2 start ./src/pm2.config.js",
+    "stop": "npx pm2 stop ./src/pm2.config.js",
+    "restart": "npx pm2 restart ./src/pm2.config.js",
+    "logs": "npx pm2 logs"
   },
   "keywords": [
     "apps"
   ],
   "author": "suiGN",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "pm2": "^5.4.2"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.5",
+    "figlet": "^1.7.0",
+    "inquirer": "^11.0.2",
+    "ora": "^8.1.0"
+  }
 }

@@ -1,0 +1,161 @@
+{
+  "apps": [
+    {
+      "name": "Arche",
+      "domains": ["arche.com.mx"],
+      "port": 9000,
+      "media": [
+        "Arche.prima",
+        "Lugares Increibles"
+      ]
+    },
+    {
+      "name": "cleaker.me",
+      "domains": ["cleaker.me"],
+      "port": 9001,
+      "media": [
+        "Cleaker",
+        "This.me",
+        "monadlisa",
+        "Neurons.me",
+        "NetGet",
+        "All.This"
+      ]
+    },
+    {
+      "name": "DelPais.mx",
+      "domains": [
+        "cafedelpais.com.mx",
+        "cafedelpais.mx",
+        "delpais.mx",
+        "ilegalmezcal.mx",
+        "kidneywood.info",
+        "maizdelpais.com.mx",
+        "maizdelpais.mx",
+        "palo-azul.com",
+        "paloazul.com.mx",
+        "paloazul.mx",
+        "blackcoffee.mx",
+        "kohi.mx"
+      ],
+      "port": 9002,
+      "media": [
+        "DelPaís.mx",
+        "Palo Azul",
+        "BlackCoffee",
+        "Kidney Wood",
+        "Lugares Maravillosos del Mundo",
+        "Oh",
+        "Lugares Increibles"
+      ]
+    },
+    {
+      "name": "FullTrailer",
+      "domains": [
+        "fulltrailer.com.mx",
+        "hyundai.space",
+        "hyundaisureste.mx",
+        "metro-bus.mx",
+        "rafagas.com.mx"
+      ],
+      "port": 9003,
+      "media": [
+        "FullTrailer",
+        "Arrieras",
+        "Hyundai Sureste",
+        "Transportes Rafagas del Golfo",
+        "Metro",
+        "Lugares Increibles"
+      ]
+    },
+    {
+      "name": "mlearning.studio",
+      "domains": ["mlearning.studio", "mlearning.me", "diving.studio"],
+      "port": 9004,
+      "media": [
+        "All.This",
+        "Neurons.me",
+        "Diving.Studio",
+        "Number",
+        "Arrieras",
+        "This.me",
+        "NetGet",
+        "Apollo Divers",
+        "Lugares Increibles"
+      ]
+    },
+    {
+      "name": "mdrn",
+      "domains": ["mdrn.me"],
+      "port": 9005,
+      "media": [
+        "mdrnchurch",
+        "All.This",
+        "This.me",
+        "Technotheonomics",
+        "The Foundation",
+        "Number",
+        "NetGet",
+        "Oh",
+        "Goku",
+        "El Filósofo Ebrio",
+        "monadlisa"
+      ]
+    },
+    {
+      "name": "musicLab",
+      "domains": ["musiclab.studio", "mdrnchurch.com", "papa-juliett.com"],
+      "port": 9006,
+      "media": [
+        "Musiclab.git",
+        "All.This",
+        "Neurons.me",
+        "Number",
+        "NetGet",
+        "Oh",
+        "This.me",
+        "monadlisa",
+        "La Cueva Imaginaria del Enemigo Imaginario de mi amigo imaginario",
+        "El Filósofo Ebrio"
+      ]
+    },
+    {
+      "name": "OrgBoat",
+      "domains": ["orgboat.me", "orgboat.com"],
+      "port": 9007,
+      "media": [
+        "OrgBoat",
+        "monadlisa",
+        "This.me",
+        "Neurons.me"
+      ]
+    },
+    {
+      "name": "Polls.Studio",
+      "domains": [
+        "elbuentono.com",
+        "elbuentono.com.mx",
+        "mexicoencuesta.com",
+        "mexicoencuesta.mx",
+        "méxicoencuesta.com",
+        "wreckthemedia.com",
+        "wreckthemediac.com"
+      ],
+      "port": 9008,
+      "media": [
+        "México Encuesta",
+        "Neurons.me",
+        "Radio Banana",
+        "Wreck The Media",
+        "Oh",
+        "El Buen Tono",
+        "El Filósofo Ebrio",
+        "Girl N Famous",
+        "Goku",
+        "Stupid N Famous",
+        "La Cueva Imaginaria del Enemigo Imaginario de mi amigo imaginario",
+        "Lugares Increibles"
+      ]
+    }
+  ]
+}

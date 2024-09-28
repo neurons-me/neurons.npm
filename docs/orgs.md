@@ -4,7 +4,7 @@
 **Amazon:**
 **Medium:**
 **Website:** abro.homes
-**Linkedin:** 
+**Linkedin:** https://www.linkedin.com/company/abro-homes
 **Youtube:** @ABROHomes 
 ---------
 # Abella.e
@@ -13,7 +13,7 @@
 **Instagram:** jabella.e, suign
 **Website:** suign.com, abellae.me
 **Amazon:**
-**Medium:** @suign
+**Medium:** @suign · suign.medium.com
 **Linkedin:** https://www.linkedin.com/in/suign/
 **Youtube:** @Abellae
 ---------
@@ -22,7 +22,7 @@
 **Instagram:** neurons.me
 **Website:** mlearning.studio, mlearning.me, pixelgrid.me
 **Amazon:**
-**Medium:** @neurons.me
+**Medium:** @neurons.me 
 **Linkedin:** https://www.linkedin.com/company/neurons-me
 **Youtube:** @neurons_me
 ---------
@@ -34,12 +34,13 @@
 **Medium:**
 **Linkedin:** 
 **Youtube:** @ApolloDivers
+**Emails:** hello@apollodivers.com
 ---------
 # Arche.prima
 **Facebook:** 
 **Instagram:** arche.prima
 **Amazon:**
-**Medium:**
+**Medium:**  @delpais-mx · delpais-mx.medium.com 
 **Website:** arche.com.mx
 **Linkedin:** https://www.linkedin.com/company/arche-prima-materia/
 **Youtube:** @MéxicoEncuesta
@@ -49,7 +50,7 @@
 **Facebook:** https://www.facebook.com/FullTrailerLogistics
 **Instagram:** 
 **Amazon:**
-**Medium:**
+**Medium:** @fulltrailer.com.mx
 **Website:** arrieras.com.mx
 **Linkedin:** https://www.linkedin.com/company/fulltrailer/
 **Youtube:** @FullTrailerLogistics
@@ -58,15 +59,15 @@
 # BlackCoffee
 **Facebook:** https://www.facebook.com/plain.blackcoffee
 **Instagram:** delpais.mx
-**Website:** blackcoffee.mx, kohi.mx, cafedelpais.com.mx, cafedelpais.mx
+**Website:** blackcoffee.mx, kohi.mx
 **Amazon:**
 https://sellercentral.amazon.com.mx/, 
 www.amazon.com/shops/delpaismx,
 www.amazon.ca/shops/delpaismx
-**Medium:**
+**Medium:** @delpais-mx · delpais-mx.medium.com 
 **Linkedin:** https://www.linkedin.com/company/delpaismx/
 **Youtube:** @DelPaismx
-**Emails:** 
+**Emails:**  hola@delpais.mx
 ---------
 # Cleaker
 **Facebook:** https://www.facebook.com/cleaker.me/
@@ -93,7 +94,7 @@ maizdelpais.mx
 https://sellercentral.amazon.com.mx/, 
 www.amazon.com/shops/delpaismx,
 www.amazon.ca/shops/delpaismx
-**Medium:**
+**Medium:** @delpais-mx · delpais-mx.medium.com 
 **Linkedin:**  https://www.linkedin.com/company/delpaismx/
 **Emails:** hola@delpais.mx
 ---------
@@ -102,7 +103,7 @@ www.amazon.ca/shops/delpaismx
 **Instagram:** elbuentono
 **Website:** elbuentono.com, elbuentono.com.mx
 **Amazon:**
-**Medium:**
+**Medium:** @delpais-mx · delpais-mx.medium.com 
 **Linkedin:**
 **Youtube:**
 **Emails:** 
@@ -120,16 +121,16 @@ sistemas@elbuentono.com
 **Instagram:** filosofoebrio
 **Website:**
 **Amazon:**
-**Medium:**
+**Medium:** @wreckthemedia · wreckthemedia.medium.com
 **Linkedin:** https://www.linkedin.com/showcase/méxico-encuesta/
 **Youtube:** @ElFilosofoEbrio
 ---------
 # FullTrailer
-**Facebook:** https://www.facebook.com/FullTrailerLogistics, https://www.facebook.com/hyundaifulltrailer
+**Facebook:** https://www.facebook.com/FullTrailerLogistics
 **Instagram:** 
 **Website:** https://fulltrailer.com.mx
 **Amazon:**
-**Medium:** 
+**Medium:** @fulltrailer · fulltrailer.medium.com
 **Linkedin:** https://www.linkedin.com/company/fulltrailer/
 **Youtube:** @FullTrailerLogistics
 **Emails:** jabellae@fulltrailer.com.mx
@@ -139,7 +140,7 @@ sistemas@elbuentono.com
 **Instagram:** 
 **Website:**
 **Amazon:**
-**Medium:**
+**Medium:** @wreckthemedia · wreckthemedia.medium.com
 **Linkedin:**
 **Youtube:** @ElFilosofoEbrio
 ---------
@@ -148,16 +149,16 @@ sistemas@elbuentono.com
 **Instagram:** 
 **Website:**
 **Amazon:**
-**Medium:**
+**Medium:** @wreckthemedia · wreckthemedia.medium.com
 **Linkedin:**
 **Youtube:** @ElFilosofoEbrio
 ---------
 # Hyundai Sureste
-**Facebook:** https://www.facebook.com/hyundaisuresteMx
+**Facebook:** https://www.facebook.com/hyundaisuresteMx, https://www.facebook.com/hyundaifulltrailer
 **Instagram:**
 **Website:** hyundai.space, hyundaisureste.mx
 **Amazon:**
-**Medium:**
+**Medium:**  @fulltrailer · fulltrailer.medium.com
 **Linkedin:**  https://www.linkedin.com/showcase/hyundai-sureste-m%C3%A9xico/about/
 **Youtube:**  @FullTrailerLogistics
 ---------
@@ -169,7 +170,7 @@ sistemas@elbuentono.com
 https://sellercentral.amazon.com.mx/, 
 www.amazon.com/shops/delpaismx,
 www.amazon.ca/shops/delpaismx
-**Medium:**
+**Medium:** @delpais-mx · delpais-mx.medium.com 
 **Linkedin:** https://www.linkedin.com/company/delpaismx/
 **Youtube:** @DelPaismx
 ---------
@@ -187,18 +188,18 @@ www.amazon.ca/shops/delpaismx
 **Instagram:** 
 **Website:**
 **Amazon:**
-**Medium:**
+**Medium:** @delpais-mx · delpais-mx.medium.com 
 **Linkedin:** https://www.linkedin.com/showcase/méxico-encuesta/
-**Youtube:** @LugaresIncreibles-1
+**Youtube:** @LugaresIncreibles-mx
 ---------
 # Lugares Maravillosos del Mundo
 **Facebook:** https://www.facebook.com/lugares.incribles**
 **Instagram:** 
 **Website:**
 **Amazon:**
-**Medium:**
+**Medium:** @delpais-mx · delpais-mx.medium.com 
 **Linkedin:** https://www.linkedin.com/showcase/méxico-encuesta/
-**Youtube:** @LugaresIncreibles-1
+**Youtube:** @LugaresIncreibles-mx
 ---------
 # México Encuesta
 **Facebook:** https://www.facebook.com/MexicoEncuestaOficial/
@@ -208,7 +209,7 @@ www.amazon.ca/shops/delpaismx
 https://sellercentral.amazon.com.mx/, 
 www.amazon.com/shops/delpaismx,
 www.amazon.ca/shops/delpaismx
-**Medium:**
+**Medium:** @delpais.mx
 **Linkedin:** https://www.linkedin.com/showcase/méxico-encuesta/
 **Youtube:** @MéxicoEncuesta
 ---------
@@ -217,7 +218,7 @@ www.amazon.ca/shops/delpaismx
 **Instagram:**
 **Website:** metro-bus.mx
 **Amazon:**
-**Medium:**
+**Medium:** @fulltrailer · fulltrailer.medium.com
 **Linkedin:** https://www.linkedin.com/company/fulltrailer/
 **Youtube:**  @FullTrailerLogistics
 ---------
@@ -235,7 +236,7 @@ www.amazon.ca/shops/delpaismx
 **Instagram:** mdrnchurch
 **Website:** mdrnchurch.com
 **Amazon:**
-**Medium:** @suign
+**Medium:** @suign · suign.medium.com
 **Linkedin:** https://www.linkedin.com/company/neurons-me
 **Youtube:** @neuron_me
 ---------
@@ -244,7 +245,7 @@ www.amazon.ca/shops/delpaismx
 **Instagram:** mdrnchurch
 **Website:** mdrnchurch.com
 **Amazon:**
-**Medium:** @suign
+**Medium:** @suign · suign.medium.com
 **Linkedin:** https://www.linkedin.com/company/neurons-me
 **Youtube:** @neuron_me
 ---------
@@ -286,7 +287,7 @@ upport@neurons.me
 **Instagram:** numb.eers
 **Website:** https://neurons.me
 **Amazon:**
-**Medium:** @suign
+**Medium:** @suign · suign.medium.com
 **Linkedin:** https://www.linkedin.com/company/neurons-me
 **Youtube:** @neuron_me
 **Emails:** 
@@ -296,7 +297,7 @@ upport@neurons.me
 **Instagram:** 
 **Website:**
 **Amazon:**
-**Medium:**
+**Medium:** @suign · suign.medium.com
 **Linkedin:**
 **Youtube:** @MéxicoEncuesta
 **Emails:** 
@@ -319,7 +320,7 @@ upport@neurons.me
 https://sellercentral.amazon.com.mx/, 
 www.amazon.com/shops/delpaismx,
 www.amazon.ca/shops/delpaismx
-**Medium:**
+**Medium:** @delpais-mx · delpais-mx.medium.com 
 **Linkedin:** https://www.linkedin.com/company/delpaismx/
 **Youtube:** @DelPaismx
 **Emails:** 
@@ -369,7 +370,7 @@ www.amazon.ca/shops/delpaismx
 ----------
 # This.me
 **Facebook:** https://www.facebook.com/i.this.me
-**Instagram:** 
+**Instagram:** @neurons.me
 **Website:**
 **Amazon:**
 **Medium:** @neurons.me
@@ -378,11 +379,11 @@ www.amazon.ca/shops/delpaismx
 **Emails:** 
 ----------
 # Transportes Rafagas del Golfo
-**Facebook:** 
+**Facebook:**  https://www.facebook.com/TransportesRafagas
 **Instagram:** 
 **Website:** rafagas.com.mx
 **Amazon:**
-**Medium:**
+**Medium:**  @fulltrailer · fulltrailer.medium.com
 **Linkedin:** https://www.linkedin.com/company/transportes-rafagas-del-golfo/
 **Youtube:** @FullTrailerLogistics
 **Emails:** 
@@ -418,7 +419,7 @@ tesoreria@rafagas.com.mx
 **Instagram:** wreckthemedia
 **Website:** wreckthemedia.com
 **Amazon:**
-**Medium:**
+**Medium:** @wreckthemedia · wreckthemedia.medium.com
 **Linkedin:** https://www.linkedin.com/company/neurons-me
 **Youtube:** @Wreck-TheMedia
 **Emails:** 

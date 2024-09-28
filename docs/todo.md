@@ -1,0 +1,1 @@
+- froms logs back to apps cli not main menu.

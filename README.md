@@ -1,16 +1,14 @@
----
 
 # **Neuroverse**
 
-**Description:**  
 Neuroverse is a monorepo containing multiple applications managed centrally. Each application is a submodule that can be managed independently.
 
-## **Prerequisites**
+###### **Prerequisites**
 
 1. **Git**: Ensure you have Git installed on your system. You can download it from [git-scm.com](https://git-scm.com/).
 2. **Node.js and npm**: Install Node.js and npm from [nodejs.org](https://nodejs.org/).
 
-## **Installation Instructions**
+# **Installation Instructions**
 
 ### **1. Clone the Main Monorepo**
 
@@ -31,65 +29,83 @@ git submodule update --init --recursive
 
 This command will initialize and update all the submodules to the versions specified in the monorepo.
 
-### **3. Clone Specific Submodules Only**
+Read more at [Git_Modules.md](md/Git_Modules.md)
 
-If you do not want to clone all the submodules, you can initialize and clone only the ones you need. Use the following command, replacing `<submodule-path>` with the path to the specific submodule you want to clone, such as `apps/FullTrailer`:
+--------------
 
-```bash
-git submodule update --init <submodule-path>
+# **Individual App Scripts Explanation:**
+
+```json
+"scripts": {
+  "dev": "concurrently \"npm:dev:*\"",
+  "dev:api": "node index.js",
+  "dev:gui": "cd gui && vite",
+  "build": "cd gui && vite build",
+  "start": "node index.js",
+  "start:prod": "npm run build && npm run start"
+}
 ```
 
-Example to clone only FullTrailer:
+**1.** **dev:** Uses concurrently to run multiple development scripts in parallel:
 
-```bash
-git submodule update --init apps/FullTrailer
+​	• **dev:api** runs the backend API using Express (index.js).
+
+​	• **dev:gui** starts the Vite development server inside the gui directory for the front-end.
+
+**2. dev:api:** Runs the backend API in development mode using Node.
+
+**3. dev:gui:** Changes the directory to gui and starts the Vite development server for the front-end.
+
+**4. build:** Builds the front-end with Vite, placing the production-ready assets in a dist directory inside gui.
+
+**5. start:** Starts the backend API server using the compiled production files.
+
+**6. start:prod:** Runs the build process for the front-end and then starts the backend API in production mode.
+
+---------------
+
+# **Neuroverse Mono Repo Scripts Explanation:**
+
+```json
+"scripts": {
+  "start": "npx pm2 start pm2.config.js",
+  "stop": "npx pm2 stop pm2.config.js",
+  "restart": "npx pm2 restart pm2.config.js",
+  "logs": "npx pm2 logs"
+}
 ```
 
-### **4. Update Submodules**
+1. **start:** Starts all the apps defined in **pm2.config.js** using PM2. This script is responsible for running the production environment of the backend services for all the apps.
 
-To update all submodules to their latest version, use:
+2. **stop:** Stops all apps defined in the **pm2.config.js** file.
 
-```bash
-git submodule update --remote --merge
-```
+3. **restart:** Restarts the apps, which is useful for applying changes or recovering from errors without downtime.
 
-This command will fetch updates for all submodules and merge them with your local version.
+4. **logs:** Shows the logs of all the running apps managed by PM2, making it easier to monitor what’s happening across your services.
 
-### **5. Adding New Submodules**
+------------
 
-If you need to add a new submodule, use the following command:
+## **PM2 for Production:**
 
-```bash
-git submodule add <repository-url> <submodule-path>
-```
+• **Purpose:** To manage, monitor, and keep your applications running smoothly in production.
 
-Example:
+• **Usage:** Start, stop, restart, and monitor all your apps centrally using the PM2 config file (pm2.config.js).
 
-```bash
-git submodule add https://github.com/neurons-me/Arche.git apps/Arche
-```
+• **Benefits:** Ensures high availability, handles crashes, and provides powerful process management tools.
 
-After adding the submodule, update the `.gitmodules` file and make sure to commit the changes.
+## **Local Development Workflow:**
 
-### **6. Removing a Submodule**
+• **Purpose:** To work on individual apps with a focus on speed, hot-reloading, and easy testing.
 
-To remove a submodule, follow these steps:
+• **Usage:** Use npm run dev within each app to start the Vite and Express servers for a development environment.
 
-1. Edit the `.gitmodules` file and remove the entry for the submodule.
-2. Edit `.git/config` and remove the section corresponding to the submodule.
-3. Remove the submodule from the index and the working directory:
+•  **Tools:** Concurrently, Vite for the frontend, and Express for the backend, tailored within each app’s package.json.
 
-   ```bash
-   git rm --cached <submodule-path>
-   rm -rf <submodule-path>
-   ```
+## **Deployment Flow:**
 
-4. Commit the changes to the monorepo.
+• **Build Locally:** Use npm run build within each app to generate production-ready frontend assets.
 
-### **Common Issues**
-
-- **Submodules not cloned:** Ensure you have run `git submodule update --init --recursive` after cloning the monorepo.
-- **Failed submodule update:** Use `git submodule update --remote --merge` to force an update.
+• **Deploy with PM2:** Use pm2 start pm2.config.js from the root to deploy and manage all apps, ensuring they serve the built frontend assets and run the backend servers in production mode.
 
 ## **Contributing**
 
@@ -98,6 +114,4 @@ If you want to contribute to this monorepo, follow these steps:
 1. Clone the monorepo and initialize the required submodules.
 2. Make your changes and create a new branch for your work.
 3. Commit your changes and push them to the remote repository.
-
----
 

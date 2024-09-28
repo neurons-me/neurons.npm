@@ -1,0 +1,393 @@
+{
+    "social_media": {
+      "Medium": [
+        {
+          "Account": ["@delpais-mx", "delpais-mx.medium.com"],
+          "Admin": "me@neurons.me"
+        },
+        {
+          "Account": "@neurons.me",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Account": ["@suign", "suign.medium.com"],
+          "Admin": "jabellae@gmail.com"
+        },
+        {
+          "Account": ["@fulltrailer", "fulltrailer.medium.com"],
+          "Admin": "jabellae@fulltrailer.com.mx"
+        },
+        {
+          "Account": ["@apollo-divers", "apollo-divers.medium.com"],
+          "Admin": "natsynapses@gmail.com"
+        },
+        {
+          "Account": ["@wreckthemedia", "wreckthemedia.medium.com"],
+          "Admin": "admin@rafagas.com.mx"
+        }
+      ],
+      "YouTube": [
+        {
+          "Account": "@ABROHomes",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Account": "@Abellae",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Account": "@neurons_me",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Account": "@ApolloDivers",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Account": "@MéxicoEncuesta",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Account": "@FullTrailerLogistics",
+          "Admin": "jabellae@fulltrailer.com.mx"
+        },
+        {
+          "Account": "@DelPaismx",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Account": "@neuron_me",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Account": "@ElFilosofoEbrio",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Account": "@LugaresIncreibles-mx",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Account": "@musicLab-studio",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Account": "@OrgBoat",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Account": "@Wreck-TheMedia",
+          "Admin": "admin@neurons.me"
+        }
+      ],
+      "Facebook": [
+        {
+          "Page": "https://www.facebook.com/abro.homes",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/suign0/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/all.this.stuff/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/apollodivers/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "-",
+          "Admin": "contact@arche.com.mx"
+        },
+        {
+          "Page": "https://www.facebook.com/FullTrailerLogistics",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/plain.blackcoffee",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/cleaker.me/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/delpais.mx/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/elbuentonodecordoba",
+          "Admin": "jabellae@gmail.com"
+        },
+        {
+          "Page": "https://www.facebook.com/elfilosofoebrio",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/FullTrailerLogistics",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/girlNfamous",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/ggookkuuu/s",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/hyundaisuresteMx",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/kidneywoodTea/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/La.cueva.imaginaria",
+          "Admin": "jabellae@gmail.com"
+        },
+        {
+          "Page": "https://www.facebook.com/lugaresincreibles",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/lugares.incribles",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/MexicoEncuestaOficial/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "-",
+          "Admin": "-"
+        },
+        {
+          "Page": "https://www.facebook.com/monadlisa.me/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "-",
+          "Admin": "-"
+        },
+        {
+          "Page": "-",
+          "Admin": "-"
+        },
+        {
+          "Page": "https://www.facebook.com/musicLab.git",
+          "Admin": "jabellae@gmail.com"
+        },
+        {
+          "Page": "https://www.facebook.com/neurons.me/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/netget.me/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/numb.3red/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/Oh.pager",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "-",
+          "Admin": "contact@orgboat.com"
+        },
+        {
+          "Page": "https://www.facebook.com/paloazulT/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/radiobananamx/",
+          "Admin": "jabellae@gmail.com"
+        },
+        {
+          "Page": "https://www.facebook.com/stupidNfamous",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/technotheonomics/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/the.foundation.asimov/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/i.this.me",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Page": "https://www.facebook.com/TransportesRafagas",
+          "Admin": "sistemas@rafagas.com.mx"
+        },
+        {
+          "Page": "-",
+          "Admin": "-"
+        }
+      ],
+      "Instagram": [
+        {
+          "Account": "jabella.e",
+          "Admin": "jabellae@gmail.com"
+        },
+        {
+          "Account": "mexicoencuesta",
+          "Admin": "jabellae@gmail.com"
+        },
+        {
+          "Account": "sui.gn",
+          "Admin": "jabellae@gmail.com"
+        },
+        {
+          "Account": "elbuentono",
+          "Admin": "jabellae@gmail.com"
+        },
+        {
+          "Account": "neurons.me",
+          "Admin": "jabellae@gmail.com"
+        },
+        {
+          "Account": "apollo.diver",
+          "Admin": "jabellae@gmail.com"
+        },
+        {
+          "Account": "apollo.diving",
+          "Admin": "jabellae@gmail.com"
+        },
+        {
+          "Account": "arche.prima",
+          "Admin": "contact@arche.com.mx"
+        },
+        {
+          "Account": "delpais.mx",
+          "Admin": "hola@delpais.mx"
+        },
+        {
+          "Account": "filosofoebrio",
+          "Admin": "-"
+        },
+        {
+          "Account": "monadlisa.ai",
+          "Admin": "-"
+        },
+        {
+          "Account": "mdrnchurch",
+          "Admin": "-"
+        },
+        {
+          "Account": "paloazul.mx",
+          "Admin": "jabellae@gmail.com"
+        },
+        {
+          "Account": "paloazul_tea",
+          "Admin": "-"
+        }, 
+        {
+          "Account": "paloazul_",
+          "Admin": "-"
+        },
+        {
+          "Account": "radiobanana983",
+          "Admin": "-"
+        },
+        {
+          "Account": "radiobanana",
+          "Admin": "-"
+        },
+        {
+          "Account": "wreckthemedia",
+          "Admin": "-"
+        },
+        {
+          "Account": "numb.eers",
+          "Admin": "-"
+        },
+        {
+          "Account": "netget.me",
+          "Admin": "me@neurons.me"
+        },
+        {
+          "Account": "_orgboat_",
+          "Admin": "contact@orgboat.com"
+        },
+        {
+          "Account": "technotheonomic",
+          "Admin": "me@neurons.me"
+        },
+        {
+          "Account": "technotheonomics",
+          "Admin": "info@neurons.me"
+        },
+        {
+          "Account": "pasaport.3",
+          "Admin": "admin@neurons.me"
+        }
+      ],
+      "LinkedIn": [
+        {
+          "Name": "ABRO Homes",
+          "LinkedIn URL": "https://www.linkedin.com/company/abro-homes",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Name": "Abella.e",
+          "LinkedIn URL": "https://www.linkedin.com/in/suign/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Name": "Arche.prima",
+          "LinkedIn URL": "https://www.linkedin.com/company/arche-prima-materia/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Name": "Cleaker",
+          "LinkedIn URL": "https://www.linkedin.com/showcase/cleaker",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Name": "DelPaís.mx",
+          "LinkedIn URL": "https://www.linkedin.com/company/delpaismx/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Name": "FullTrailer",
+          "LinkedIn URL": "https://www.linkedin.com/company/fulltrailer/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Name": "Hyundai Sureste",
+          "LinkedIn URL": "https://www.linkedin.com/showcase/hyundai-sureste-m%C3%A9xico/about/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Name": "México Encuesta",
+          "LinkedIn URL": "https://www.linkedin.com/showcase/méxico-encuesta/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Name": "OrgBoat",
+          "LinkedIn URL": "https://www.linkedin.com/showcase/org-boat",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Name": "Rafagas del Golfo",
+          "LinkedIn URL": "https://www.linkedin.com/company/transportes-rafagas-del-golfo/",
+          "Admin": "admin@neurons.me"
+        },
+        {
+          "Name": "Neurons.me",
+          "LinkedIn URL": "https://www.linkedin.com/company/neurons-me",
+          "Admin": "admin@neurons.me"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,310 @@
+{
+    "domains": [
+      {
+        "domain": "abellae.me",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": ""
+      },
+      {
+        "domain": "abro.homes",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": ""
+      },
+      {
+        "domain": "abokado.mx",
+        "provider": "fatcow.com",
+        "admin": "natsynapses@gmail.com",
+        "app": "DelPais.mx"
+      },
+      {
+        "domain": "at0m.me",
+        "provider": "fatcow.com",
+        "admin": "natsynapses@gmail.com",
+        "app": "at0m.me"
+      },
+      {
+        "domain": "blackcoffee.mx",
+        "provider": "fatcow.com",
+        "admin": "natsynapses@gmail.com",
+        "app": "DelPais.mx"
+      },
+      {
+        "domain": "apollodivers.com",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "Polls.Studio"
+      },
+      {
+        "domain": "arche.com.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "Arche"
+      },
+      {
+        "domain": "cafedelpais.com.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "DelPais.mx"
+      },
+      {
+        "domain": "cafedelpais.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "DelPais.mx"
+      },
+      {
+        "domain": "cleaker.me",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "Cleaker"
+      },
+      {
+        "domain": "delpais.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "DelPais.mx"
+      },
+      {
+        "domain": "diving.studio",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "MLearningStudio"
+      },
+      {
+        "domain": "elbuentono.com",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "Polls.Studio"
+      },
+      {
+        "domain": "elbuentono.com.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "Polls.Studio"
+      },
+      {
+        "domain": "fulltrailer.com.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "FullTrailer"
+      },
+      {
+        "domain": "hyundai.space",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "FullTrailer"
+      },
+      {
+        "domain": "hyundaisureste.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "FullTrailer"
+      },
+      {
+        "domain": "ilegalmezcal.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "DelPais.mx"
+      },
+      {
+        "domain": "kidneywood.info",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "DelPais.mx"
+      },
+      {
+        "domain": "kohi.mx",
+        "provider": "fatcow.com",
+        "admin": "natsynapses@gmail.com",
+        "app": "DelPais.mx"
+      },
+      {
+        "domain": "maizdelpais.com.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "DelPais.mx"
+      },
+      {
+        "domain": "maizdelpais.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "DelPais.mx"
+      },
+      {
+        "domain": "mdrn.me",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "MDRN"
+      },
+      {
+        "domain": "mdrnchurch.com",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "MDRN"
+      },
+      {
+        "domain": "metro-bus.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "FullTrailer"
+      },
+      {
+        "domain": "mexicoencuesta.com",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "Polls.Studio"
+      },
+      {
+        "domain": "mexicoencuesta.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "Polls.Studio"
+      },
+      {
+        "domain": "méxicoencuesta.com",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "Polls.Studio"
+      },
+      {
+        "domain": "mlearning.me",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "MLearningStudio"
+      },
+      {
+        "domain": "mlearning.studio",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "MLearningStudio"
+      },
+      {
+        "domain": "mlisa.me",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "monadLisa"
+      },
+      {
+        "domain": "monadlisa.ai",
+        "provider": "godaddy",
+        "admin": "admin@neurons.me",
+        "app": "monadLisa"
+      },
+      {
+        "domain": "monadlisa.com",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "monadLisa"
+      },
+      {
+        "domain": "monadlisa.me",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "monadLisa"
+      },
+      {
+        "domain": "musiclab.studio",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "MusicLab"
+      },
+      {
+        "domain": "netget.me",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "NetGet"
+      },
+      {
+        "domain": "netget.site",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "NetGet"
+      },
+      {
+        "domain": "neurons.me",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "Neuroverse"
+      },
+      {
+        "domain": "orgboat.me",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "OrgBoat"
+      },
+      {
+        "domain": "orgboat.com",
+        "provider": "dnssimple.com",
+        "admin": "natsynapses@gmail.com",
+        "app": "OrgBoat"
+      },
+      {
+        "domain": "palo-azul.com",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "DelPais.mx"
+      },
+      {
+        "domain": "paloazul.com.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "DelPais.mx"
+      },
+      {
+        "domain": "paloazul.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "DelPais.mx"
+      },
+      {
+        "domain": "papa-juliett.com",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "MusicLab"
+      },
+      {
+        "domain": "pixelgrid.me",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "PixelGrid.me"
+      },
+      {
+        "domain": "polls.studio",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "Polls.Studio"
+      },
+      {
+        "domain": "rafagas.com.mx",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": "FullTrailer"
+      },
+      {
+        "domain": "suign.com",
+        "provider": "squarespace",
+        "admin": "jabellae@gmail.com",
+        "app": ""
+      },
+      {
+        "domain": "technotheonomics.com",
+        "provider": "godaddy",
+        "admin": "admin@neurons.me",
+        "app": ""
+      },
+      {
+        "domain": "wreckthemedia.com",
+        "provider": "fatcow.com",
+        "admin": "natsynapses@gmail.com",
+        "app": "Polls.Studio"
+      },
+      {
+        "domain": "wreckthemediac.com",
+        "provider": "fatcow.com",
+        "admin": "natsynapses@gmail.com",
+        "app": "Polls.Studio"
+      }
+    ]
+  }

@@ -18,6 +18,13 @@
 - **Sitio web**:[ linkedin.com](https://www.linkedin.com)
 - **API**:[ LinkedIn API](https://docs.microsoft.com/en-us/linkedin/)
 
+# YouTube
+- **Descripción**: Plataforma de compartición de videos donde los usuarios pueden subir, ver y comentar videos.
+- **Sitio web**:[ youtube.com](https://www.youtube.com)
+- **API**: YouTube Data API
+
+---------------------------
+
 # TikTok
 - **Descripción**: Plataforma para crear y compartir videos cortos y atractivos, a menudo con música.
 - **Sitio web**:[ tiktok.com](https://www.tiktok.com)
@@ -27,11 +34,6 @@
 - **Descripción**: Una aplicación de mensajería multimedia conocida por sus mensajes que desaparecen y filtros creativos.
 - **Sitio web**:[ snapchat.com](https://www.snapchat.com)
 - **API**: Snap Kit
-
-# YouTube
-- **Descripción**: Plataforma de compartición de videos donde los usuarios pueden subir, ver y comentar videos.
-- **Sitio web**:[ youtube.com](https://www.youtube.com)
-- **API**: YouTube Data API
 
 # Pinterest
 - **Descripción**: Un motor de descubrimiento visual para encontrar y compartir ideas, principalmente a través de imágenes.
