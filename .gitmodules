@@ -13,9 +13,9 @@
 [submodule "apps/mdrn"]
     path = apps/mdrn
     url = https://github.com/neurons-me/mdrn.git
-[submodule "apps/mdrn"]
-    path = apps/mdrn
-    url = https://github.com/neurons-me/mlearningStudio.git
+[submodule "apps/mlearning.studio"]
+    path = apps/mlearning.studio
+    url = https://github.com/neurons-me/mlearning.studio.git
 [submodule "apps/musicLab"]
     path = apps/musicLab
     url = https://github.com/neurons-me/musicLab.git
