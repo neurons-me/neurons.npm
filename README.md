@@ -1,6 +1,8 @@
 # HTTPS-Neurons
 HTTPS-Neurons is the central directory for hosting APIs, server endpoints, React-based Vite code, and ecosystem modules for the neurons.me platform.
+
 ![Neuroverse](./rootDomain/public/media/neuroverse.png)
+
 ## Directory Structure
 **1. server/**
 This directory contains APIs and server endpoints used to power the backend of the neurons.me ecosystem. All server logic and API routes are defined here.
