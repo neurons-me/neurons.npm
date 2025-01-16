@@ -1,8 +1,6 @@
 # HTTPS-Neurons
 HTTPS-Neurons is the central directory for hosting APIs, server endpoints, React-based Vite code, and ecosystem modules for the neurons.me platform.
-
 ![Neuroverse](./rootDomain/public/media/neuroverse.png)
-
 ## Directory Structure
 **1. server/**
 This directory contains APIs and server endpoints used to power the backend of the neurons.me ecosystem. All server logic and API routes are defined here.
@@ -24,28 +22,28 @@ Notes
 
 # Clone the Repository
 Run the following command to clone the repository:
-
+```bash
 git clone https://github.com/neurons-me/https-neurons.git
-
+```
 **2. Initialize the Submodule**
 After cloning, initialize and fetch the neurons.me submodule:
-
+```bash
 cd https-neurons
 git submodule update --init --recursive
-
+```
 This will clone the neurons.me repository into the modules/neurons.me directory.
 
 **3. Update the Submodule (Optional)**
 To ensure you have the latest changes from the neurons.me repository:
-
+```bash
 git submodule update --remote modules/neurons.me
-
+```
 **4. Install Dependencies for neurons.me**
 Navigate to the submodule directory and install its dependencies:
-
+```bash
 cd modules/neurons.me
 npm install
-
+```
 **5. Start Development**
 Once dependencies are installed, you can begin development or integrate the submodule into your project.
 
