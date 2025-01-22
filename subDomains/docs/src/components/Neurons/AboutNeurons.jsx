@@ -33,7 +33,7 @@ const AboutNeuronsMe = () => {
           }}
         >
           <Typography
-            variant="h4"
+            variant="h3"
             gutterBottom
             sx={{
               fontWeight: 700,
@@ -53,10 +53,8 @@ const AboutNeuronsMe = () => {
               color: "text.primary",
             }}
           >
-            <b>neurons.me</b> simplifies the creation and management of neural networks
-             while ensuring sovereignty over <b>data</b> and <b>algorithms</b>.
-
-         
+            Simplify <b>DeepLearning </b>
+              and ensure sovereignty over <b>data</b> and <b>algorithms</b>.
           </Typography>
 
           <Typography

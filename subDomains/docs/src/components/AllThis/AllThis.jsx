@@ -46,27 +46,29 @@ const AllThis = () => {
           </Typography>
 
           <Typography
-            variant="body1"
-            sx={{
-              fontSize: "1rem",
-              lineHeight: 1.6,
-              color: "text.primary",
-            }}
-          >
-            <b>All.This</b> is your ultimate toolbox for modular development. It offers a suite of tools designed to help developers create, customize, and manage projects with ease.
-          </Typography>
+  variant="body1"
+  sx={{
+    fontSize: "1rem",
+    lineHeight: 1.6,
+    color: "text.primary",
+  }}
+>
+  <b>All.This</b> is a central framework for managing modular packages tailored to <b>specific data structures and functionalities,</b> streamlining machine learning workflows.
+</Typography>
 
-          <Typography
-            variant="body1"
-            sx={{
-              fontSize: "1rem",
-              lineHeight: 1.6,
-              color: "text.primary",
-              marginTop: "10px",
-            }}
-          >
-            Whether you're working on AI, web applications, or systems infrastructure, <b>All.This</b> empowers you to build with precision and flexibility. Explore its tools and start developing today.
-          </Typography>
+<Typography
+  variant="body1"
+  sx={{
+    fontSize: "1rem",
+    lineHeight: 1.6,
+    color: "text.primary",
+    mt: 2,
+  }}
+>
+  Designed to structure data for neural networks, it simplifies tasks like preparing images for convolutional layers or organizing text for sequential models, enabling seamless integration within the <b>neurons.me</b> ecosystem and beyond.
+</Typography>
+
+
         </Box>
 
         {/* Responsive Image */}
@@ -81,7 +83,7 @@ const AllThis = () => {
           }}
         >
           <img
-            src="/media/all.this.png"
+            src="/media/all.this.webp"
             alt="All.This illustration"
             style={{
               width: "100%",

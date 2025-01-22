@@ -6,31 +6,31 @@ const menuItems = [
   {
     title: "All.This",
     description: "A collection of modular tools.",
-    image: "/media/all.this.png", // Replace with the actual image path
-    link: "/all-this", // Explicit link
+    image: "/media/all.this.webp", // Replace with the actual image path
+    link: "/all.this", // Explicit link
   },
   {
     title: "i.mLearning",
     description: "Machine learning simplified.",
-    image: "/media/mlearning.studio.png", // Replace with the actual image path
-    link: "/i-mlearning", // Explicit link
+    image: "/media/i.mlearning.webp", // Replace with the actual image path
+    link: "/i.mlearning/index.html", // Explicit link
   },
   {
     title: "neurons.me",
     description: "Framework for neural networks.",
-    image: "/media/neurons.me.dev.png", // Replace with the actual image path
-    link: "/neurons-me", // Explicit link
+    image: "/media/neurons.me.dev.webp", // Replace with the actual image path
+    link: "/neurons.me/index.html", // Explicit link
   },
   {
     title: "Cleaker",
     description: "Decentralized identity solutions.",
-    image: "/media/cleaker.me.png", // Replace with the actual image path
-    link: "/cleaker", // Explicit link
+    image: "/media/cleaker.me.webp", // Replace with the actual image path
+    link: "/cleaker/index.html", // Explicit link
   },
   {
     title: "NetGet",
     description: "Secure connection manager.",
-    image: "/media/netget.png", // Replace with the actual image path
+    image: "/media/netget.webp", // Replace with the actual image path
     link: "/netget", // Explicit link
   },
 ];

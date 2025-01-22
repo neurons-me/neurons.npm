@@ -48,18 +48,28 @@ const Footer = () => {
         </Box>
 
         {/* Neurons.me Section */}
-        <Typography
-          variant="h6"
+        <Link
+          href="https://neurons.me"
+          target="_blank"
+          underline="none"
           sx={{
-            color: "#2C7370",
-            fontFamily: "Roboto, sans-serif",
-            fontWeight: 700,
-            fontSize: "16px",
+            display: "block",
             marginBottom: "10px",
           }}
         >
-          neurons.me
-        </Typography>
+          <Typography
+            variant="h6"
+            sx={{
+              color: "#2C7370",
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: 700,
+              fontSize: "16px",
+              "&:hover": { textDecoration: "underline" },
+            }}
+          >
+            neurons.me
+          </Typography>
+        </Link>
 
         {/* Links Section */}
         <Box sx={{ textAlign: "right" }}>
@@ -120,11 +130,23 @@ const Footer = () => {
 
       {/* Logo Section */}
       <Box sx={{ marginLeft: "20px" }}>
+       {/* Logo Section */}
+      <Link
+        href="https://neurons.me"
+        target="_blank"
+        underline="none"
+        sx={{
+          marginLeft: "20px",
+          display: "flex",
+          alignItems: "center",
+        }}
+      >
         <img
-          src="/neurons.me.png"
+          src="/neurons.me.webp"
           alt="neurons.me logo"
           style={{ width: "50px", height: "50px" }}
         />
+      </Link>
       </Box>
     </Box>
   );

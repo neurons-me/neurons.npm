@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Welcome from './pages/Welcome/Welcome';
 import DocsPage from './pages/Docs/DocsPage';
 import AboutNeuronsMe from './components/Neurons/AboutNeurons'; // Import AboutNeuronsMe
 import AllThis from './components/AllThis/AllThis';
@@ -21,7 +20,7 @@ const App = () => {
           }
         />
         <Route
-        path="/all-this"
+        path="/all.this"
         element={
             <DocsPage>
             <AllThis />

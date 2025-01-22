@@ -14,11 +14,11 @@ import HomeIcon from '@mui/icons-material/Home'; // Import Home icon
 
 // Updated pages array without Docs
 const pages = [
-  { title: 'All.This', link: '/all-this' },
-  { title: 'i.mLearning', link: '/i-mlearning' },
-  { title: 'neurons.me', link: '/neurons-me' },
-  { title: 'Cleaker', link: '/cleaker' },
-  { title: 'NetGet', link: '/netget' },
+  { title: 'All.This', link: '/all.this' },
+  { title: 'i.mLearning', link: '/i.mlearning/index.html' },
+  { title: 'neurons.me', link: '/neurons.me/index.html' },
+  { title: 'Cleaker', link: '/cleaker/index.html' },
+  { title: 'NetGet', link: '/netget/index.html' },
 ];
 
 function NeuronsAppBar() {
@@ -45,8 +45,13 @@ function NeuronsAppBar() {
         <Toolbar disableGutters>
           {/* Logo Section */}
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
+          <Link
+            href="https://neurons.me"
+            target="_blank"
+            underline="none"
+      >
             <img
-              src="/neurons.me.png"
+              src="/neurons.me.webp"
               alt="neurons.me"
               style={{
                 display: 'flex',
@@ -55,6 +60,7 @@ function NeuronsAppBar() {
                 marginRight: 8,
               }}
             />
+          </Link>
             <Typography
               variant="h6"
               noWrap
