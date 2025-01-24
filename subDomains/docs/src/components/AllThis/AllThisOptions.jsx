@@ -28,6 +28,12 @@ const menuItems = [
     image: "/media/all-this/webP/this.audio.webp",
   },
   {
+    title: "this.blockchain",
+    description: "Blockchains on the Go!",
+    link: "/this.blockchains/index.html",
+    image: "/media/all-this/webP/this.blockchain.webp",
+  },
+  {
     title: "this.pixel",
     description: "Pixel-level control utilities.",
     link: "/this.pixel/index.html",

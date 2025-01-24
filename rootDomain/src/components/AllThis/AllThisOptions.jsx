@@ -28,6 +28,12 @@ const menuItems = [
     image: "/media/all-this/this.audio.png",
   },
   {
+    title: "this.blockchain",
+    description: "Blockchains on the Go!",
+    link: "/this.blockchains",
+    image: "/media/all-this/this.audio.png",
+  },
+  {
     title: "this.pixel",
     description: "Pixel-level control utilities.",
     link: "/this-pixel",
