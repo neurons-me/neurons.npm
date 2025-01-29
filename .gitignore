@@ -9,15 +9,13 @@ rootDomain/dist/
 subDomain/docs/dist/
 subDomain/media/dist/
 
-# Ignore node_modules directories for React apps
+# Ignore node_modules and package-lock.json directories for React apps
 rootDomain/node_modules/
-subDomain/docs/node_modules/
-subDomain/media/node_modules/
-
-# Ignore package-lock.json files for React apps
 rootDomain/package-lock.json
-subDomain/docs/package-lock.json
-subDomain/media/package-lock.json
+subDomains/docs/node_modules/
+subDomains/docs/package-lock.json
+subDomains/media/node_modules/
+subDomains/media/package-lock.json
 
 # Ignore Docs
 subDomains/docs/public/netget/
