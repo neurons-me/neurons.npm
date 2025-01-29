@@ -38,3 +38,6 @@ subDomains/docs/public/this.text/
 subDomains/docs/public/this.url/
 subDomains/docs/public/this.video/
 subDomains/docs/public/this.wallet/
+
+subDomain/docs/dist/
+subDomain/media/dist/
