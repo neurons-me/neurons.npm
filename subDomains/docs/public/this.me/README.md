@@ -1,6 +1,6 @@
 <img src="https://docs.neurons.me/media/all-this/webP/this.me.webp" alt="SVG Image" width="250" height="250">
 
-# THIS.ME  
+# THIS.ME  smile
 > **This.Me** is a data-structured identity designed to generate and manage identities, attributes, properties and more.
 
 # Getting Started:

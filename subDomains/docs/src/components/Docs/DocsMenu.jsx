@@ -25,7 +25,7 @@ const menuItems = [
     title: "Cleaker",
     description: "Decentralized identity solutions.",
     image: "/media/cleaker.me.webp", // Replace with the actual image path
-    link: "/Cleaker/index.html", // Explicit link
+    link: "/cleaker/index.html", // Explicit link
   },
   {
     title: "NetGet",
