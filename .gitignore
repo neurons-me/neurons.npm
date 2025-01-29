@@ -1,6 +1,8 @@
 # Ignore .DS_Store files everywhere
 .DS_Store
 **/.DS_Store
+_servers/neurobot/node_modules/
+_servers/neurobot/package-lock.json/
 
 # Ignore dist directories for React apps
 rootDomain/dist/
@@ -16,3 +18,25 @@ subDomain/media/node_modules/
 rootDomain/package-lock.json
 subDomain/docs/package-lock.json
 subDomain/media/package-lock.json
+
+# Ignore Docs
+subDomains/docs/public/netget/
+subDomains/docs/public/all.this/
+subDomains/docs/public/be.this/
+subDomains/docs/public/cleaker/
+subDomains/docs/public/neurons.me/
+subDomains/docs/public/this.audio/
+subDomains/docs/public/this.be/
+subDomains/docs/public/this.dictionaries/
+subDomains/docs/public/this.dir/
+subDomains/docs/public/this.document/
+subDomains/docs/public/this.DOM/
+subDomains/docs/public/this.env/
+subDomains/docs/public/this.GUI/
+subDomains/docs/public/this.img/
+subDomains/docs/public/this.me/
+subDomains/docs/public/this.pixel/
+subDomains/docs/public/this.text/
+subDomains/docs/public/this.url/
+subDomains/docs/public/this.video/
+subDomains/docs/public/this.wallet/
