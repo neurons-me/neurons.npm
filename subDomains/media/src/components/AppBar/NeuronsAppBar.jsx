@@ -13,9 +13,14 @@ import {
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
+import SmartToyIcon from '@mui/icons-material/SmartToy'; // Icon for Neurobot
+import CollectionsIcon from '@mui/icons-material/Collections'; // Icon for All Medias
 
 const pages = [
-  { title: 'All Medias', link: '/media' },
+  { title: 'Medias', link: '/media', icon: <CollectionsIcon /> },
+  { title: 'Neurobot', link: '/neurobot', icon: <SmartToyIcon /> },
+  { title: 'Home', link: 'https://neurons.me', icon:  <HomeIcon /> },
+
 ];
 
 export default function NeuronsAppBar() {
@@ -66,7 +71,7 @@ export default function NeuronsAppBar() {
               sx={{
                 fontFamily: 'Roboto, sans-serif',
                 fontWeight: 700,
-                color: 'white', // Ensure text is white
+                color: 'white',
                 textDecoration: 'none',
               }}
             >
@@ -84,38 +89,34 @@ export default function NeuronsAppBar() {
                 alignItems: 'center',
               }}
             >
-              {pages.map((page) => (
-                <Button
-                  key={page.title}
-                  component={Link}
-                  to={page.link}
-                  sx={{
-                    my: 2,
-                    color: 'white', // Ensure text is white
-                    display: 'block',
+            {/* Standard Page Links */}
+            {pages.map((page) => (
+            <Button
+              key={page.title}
+              component={Link}
+              to={page.link}
+                sx={{
+                  my: 2,
+                  color: 'white',
+                  display: 'flex',
+                  alignItems: 'center',
+                  borderLeft: '1px solid rgba(255, 255, 255, 0.2)', // Faint border
+                  paddingLeft: 2, // Adds spacing after the border
+                  gap: 1, // Ensures space between icon and text
                   }}
                 >
-                  {page.title}
-                </Button>
-              ))}
-              {/* Home Icon */}
-              <IconButton
-                component={Link}
-                to="https://neurons.me"
-                sx={{
-                  color: 'white',
-                  marginLeft: 2,
-                }}
-              >
-                <HomeIcon />
-              </IconButton>
+            {page.icon && <span style={{ marginRight: 4 }}>{page.icon}</span>}
+            {page.title}
+          </Button>
+            ))}
+
             </Box>
           )}
 
-          {/* Mobile Menu Icon (Right-Aligned) */}
+          {/* Mobile Menu Icon */}
           {isMobile && (
             <IconButton
-              edge="end" // Aligns to the right
+              edge="end"
               aria-label="menu"
               onClick={handleOpenNavMenu}
               sx={{ color: 'white' }}
@@ -126,29 +127,16 @@ export default function NeuronsAppBar() {
         </Toolbar>
       </AppBar>
 
-      {/* Adjust Main Content */}
-      <Box sx={{ mt: 8 }}> {/* This pushes the content below the AppBar */}
-        {/* Your main content goes here */}
-      </Box>
-
       {/* Mobile Menu */}
       <Menu
         id="menu-appbar"
         anchorEl={anchorElNav}
-        anchorOrigin={{
-          vertical: 'bottom',
-          horizontal: 'right', // Anchor opens from the right
-        }}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
         keepMounted
-        transformOrigin={{
-          vertical: 'top',
-          horizontal: 'right', // Transform opens from the right
-        }}
+        transformOrigin={{ vertical: 'top', horizontal: 'right' }}
         open={Boolean(anchorElNav)}
         onClose={handleCloseNavMenu}
-        sx={{
-          display: { xs: 'block', md: 'none' },
-        }}
+        sx={{ display: { xs: 'block', md: 'none' } }}
       >
         {pages.map((page) => (
           <MenuItem key={page.title} onClick={handleCloseNavMenu}>
@@ -165,6 +153,21 @@ export default function NeuronsAppBar() {
             </Typography>
           </MenuItem>
         ))}
+        <MenuItem onClick={handleCloseNavMenu}>
+          <Typography
+            textAlign="center"
+            component={Link}
+            to="/neurobot"
+            sx={{
+              textDecoration: 'none',
+              color: 'inherit',
+              display: 'flex',
+              alignItems: 'center',
+            }}
+          >
+            <SmartToyIcon sx={{ marginRight: 1 }} /> Neurobot
+          </Typography>
+        </MenuItem>
         <MenuItem onClick={handleCloseNavMenu}>
           <Typography
             textAlign="center"

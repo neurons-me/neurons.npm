@@ -3,6 +3,8 @@ import { Box } from "@mui/material";
 import NeuronsAppBar from "../../components/AppBar/NeuronsAppBar";
 import Footer from "../../components/Footer/Footer";
 
+const APPBAR_HEIGHT = 64; // Adjust this based on your AppBar height
+
 const MediaPage = ({ children }) => {
   return (
     <Box
@@ -18,6 +20,7 @@ const MediaPage = ({ children }) => {
           flex: 1,
           overflowY: "auto",
           padding: 2,
+          marginTop: `${APPBAR_HEIGHT}px`, // Pushes content below AppBar
         }}
       >
         {children}

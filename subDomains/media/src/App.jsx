@@ -6,7 +6,7 @@ import CompactMediaGrid from './components/MediaGrid/CompactMediaGrid'; // Media
 import TermsAndConditions from './components/Neurons/TermsAndConditions'; // Terms
 import PrivacyPolicy from './components/Neurons/PrivacyPolicy'; // Privacy
 import MediaProfile from "./components/MediaProfile/MediaProfile"; // Media Profile
-
+import ConnectMedia from './components/Neurobot/ConnectMedia'; // Neurobot Component
 
 const App = () => {
   return (
@@ -33,6 +33,16 @@ const App = () => {
           }
         />
         
+        {/* Neurobot Route */}
+        <Route
+          path="/neurobot"
+          element={
+            <MediaPage>
+              <ConnectMedia />
+            </MediaPage>
+          }
+        />
+
         {/* Terms and Conditions wrapped with MediaPage */}
         <Route
           path="/terms-and-conditions"

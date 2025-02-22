@@ -17,6 +17,9 @@ subDomains/docs/package-lock.json
 subDomains/media/node_modules/
 subDomains/media/package-lock.json
 
+# .env files
+subDomains/media/.env
+
 # Ignore Docs
 subDomains/docs/public/netget/
 subDomains/docs/public/all.this/
