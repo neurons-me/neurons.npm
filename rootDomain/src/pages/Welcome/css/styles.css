@@ -1,4 +1,4 @@
-/* Import Roboto font from Google Fonts */
+/*css/styles.css Import Roboto font from Google Fonts,  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 .welcome-page {
@@ -42,14 +42,20 @@
 }
 
 .welcome-page .modal {
-    background-color: rgba(255, 255, 255, 0.1); /* More transparent, modern glass-like effect */
+    background-color: rgba(255, 255, 255, 0.1); /* Glass effect */
     padding: 2em 3em;
     border-radius: 15px;
-    backdrop-filter: blur(10px); /* Apply blur effect for modern look */
+    backdrop-filter: blur(10px); /* Apply blur effect */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 400px;
     z-index: 1;
+    
+    /* Ensure Centering */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .welcome-page h1 {
@@ -90,7 +96,6 @@
     text-align: center;
     flex: 1 1 auto; /* Allows buttons to be flexible in width */
 }
-
 /* Additional states to fix the hover issue */
 .welcome-page .btn:hover,
 .welcome-page .btn:focus,
@@ -100,14 +105,14 @@
     outline: none; /* Removes default browser focus outline */
     text-decoration: none; /* Ensures no underline */
 }
-
+/* Responsive fix for small screens */
 @media (max-width: 480px) {
-    .welcome-page .buttons {
-        flex-direction: column; /* Stack buttons vertically on small screens */
-        gap: 0.5em; /* Adjust gap between buttons on small screens */
-    }
-
-    .welcome-page .btn {
-        width: 89%; /* Full width for buttons on small screens */
+    .welcome-page .modal {
+        width: 90%;
+        padding: 1.5em;
+        max-width: 90%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }

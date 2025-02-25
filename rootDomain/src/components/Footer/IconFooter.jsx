@@ -2,20 +2,12 @@ import React from 'react';
 
 const IconFooter = ({ openReadme }) => {
   return (
-    <div className="icon-container" style={styles.iconContainer}>
-      {/* README Icon */}
-      <div className="readme-icon" onClick={openReadme} style={styles.readmeIcon}>
-        ⌘
-      </div>
-
-      {/* Neurons.me Link */}
+    <div className="icon-container" style={styles.iconContainer}>   
+      {/* monads Link */}
       <a href="https://neurons.me" target="_blank" rel="noopener noreferrer" className="neurons-link" style={styles.neuronsLink}>
-        <img
-          className="neurons-icon"
-          src="./assets/imgs/neurons-grey.png"
-          alt="Neurons Grey Icon"
-          style={styles.neuronsIcon}
-        />
+      <div className="readme-icon" onClick={openReadme} style={styles.readmeIcon}>
+      ⊙
+      </div>
       </a>
     </div>
   );
