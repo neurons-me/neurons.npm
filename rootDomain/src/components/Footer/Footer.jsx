@@ -2,8 +2,10 @@ import React from "react";
 import { Box, Typography, Link } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { useTheme } from "@mui/material/styles";
 
 const Footer = () => {
+  const theme = useTheme();
   return (
 <Box
   component="footer"
@@ -13,8 +15,8 @@ const Footer = () => {
     justifyContent: "space-between",
     alignItems: "center",
     padding: "20px 40px",
-    borderTop: "1px solid #ddd",
-    bgcolor: "#fff",
+    borderTop: `1px solid ${theme.palette.divider}`,
+    bgcolor: theme.palette.background.paper,
   }}
 >
       <Box
@@ -39,7 +41,7 @@ const Footer = () => {
           <GitHubIcon
             sx={{
               fontSize: 24,
-              color: "#000",
+              color: theme.palette.text.primary,
               cursor: "pointer",
               "&:hover": { opacity: 0.8 },
             }}
@@ -51,7 +53,7 @@ const Footer = () => {
         <Typography
           variant="h6"
           sx={{
-            color: "#2C7370",
+            color: theme.palette.text.primary,
             fontFamily: "Roboto, sans-serif",
             fontWeight: 700,
             fontSize: "16px",
@@ -68,7 +70,7 @@ const Footer = () => {
             underline="none"
             sx={{
               display: "block",
-              color: "#2C7370",
+              color: theme.palette.text.primary,
               fontSize: "14px",
               fontWeight: 500,
               "&:hover": { textDecoration: "underline" },
@@ -81,39 +83,13 @@ const Footer = () => {
             underline="none"
             sx={{
               display: "block",
-              color: "#2C7370",
+              color: theme.palette.text.primary,
               fontSize: "14px",
               fontWeight: 500,
               "&:hover": { textDecoration: "underline" },
             }}
           >
             Privacy Policy
-          </Link>
-          <Link
-            href="/docs"
-            underline="none"
-            sx={{
-              display: "block",
-              color: "#2C7370",
-              fontSize: "14px",
-              fontWeight: 500,
-              "&:hover": { textDecoration: "underline" },
-            }}
-          >
-            Docs
-          </Link>
-          <Link
-            href="#"
-            underline="none"
-            sx={{
-              display: "block",
-              color: "#2C7370",
-              fontSize: "14px",
-              fontWeight: 500,
-              "&:hover": { textDecoration: "underline" },
-            }}
-          >
-            Glossary
           </Link>
         </Box>
       </Box>

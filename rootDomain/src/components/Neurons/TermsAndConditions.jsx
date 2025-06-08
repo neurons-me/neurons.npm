@@ -22,7 +22,7 @@ const TermsAndConditions = () => {
           fontFamily: "Roboto, sans-serif",
         }}
       >
-        Privacy Policy and Terms of Use
+        Terms and Conditions
       </Typography>
 
       {/* Last Updated */}

@@ -22,14 +22,20 @@ export function CustomThemeProvider({ children }) {
     });
   };
 
-  const theme = useMemo(() => (isDarkMode ? darkTheme : lightTheme), [isDarkMode]);
+  const theme = useMemo(() => {
+    const selectedTheme = isDarkMode ? darkTheme : lightTheme;
+    if (!selectedTheme.custom) {
+      selectedTheme.custom = {};
+    }
+    return selectedTheme;
+  }, [isDarkMode]);
 
   return (
-    <ThemeToggleContext.Provider value={toggleTheme}>
-      <ThemeProvider theme={theme}>
+        <ThemeToggleContext.Provider value={{ isDarkMode, toggleTheme }}>
+        <ThemeProvider theme={theme}>
         <CssBaseline />
         {children}
-      </ThemeProvider>
-    </ThemeToggleContext.Provider>
+        </ThemeProvider>
+        </ThemeToggleContext.Provider>
   );
 }

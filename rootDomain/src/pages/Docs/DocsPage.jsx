@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
-import NeuronsAppBar from "../../components/AppBar/NeuronsAppBar"; // Import the AppBar
+import NeuronsAppBar from "../../components/AppBar/AppBar"; // Import the AppBar
 import Footer from "../../components/Footer/Footer"; // Import the Footer
 
 const DocsPage = ({ children }) => {

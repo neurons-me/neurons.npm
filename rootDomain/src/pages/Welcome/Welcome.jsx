@@ -19,7 +19,7 @@ const Welcome = () => {
                 <h2><strong>neurons.me</strong></h2>
                 <p>Go Algorithmic</p>
                 <div className="buttons">
-                <Link to="/about-us" className="btn">About</Link>
+                <Link to="/home" className="btn">Home</Link>
                 <a href="https://docs.neurons.me" className="btn">Docs</a>
                 </div>
             </div>

@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
           fontFamily: "Roboto, sans-serif",
         }}
       >
-        Terms and Conditions
+        Privacy Policy
       </Typography>
 
       {/* Last Updated */}
