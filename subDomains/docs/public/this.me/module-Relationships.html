@@ -5,7 +5,7 @@
   ...
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>this.me Docs Relationships</title>
+  <title>this.me Docs relationships</title>
 
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -97,7 +97,7 @@
             
             <nav>
                 
-                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Modules</h3><ul><li><a href="a.module_%2520Identity.html"> Identity</a></li><li><a href="module-Attributes.html">Attributes</a></li><li><a href="module-Properties.html">Properties</a></li><li><a href="module-Reactions.html">Reactions</a></li><li><a href="module-Relationships.html">Relationships</a></li></ul><h3>Classes</h3><ul><li><a href="Me.html">Me</a></li></ul></div>
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Modules</h3><ul><li><a href="Me.me.module_attributes.html">attributes</a></li><li><a href="module-properties.html">properties</a></li><li><a href="module-reactions.html">reactions</a></li><li><a href="module-relationships.html">relationships</a></li></ul><h3>Classes</h3><ul><li><a href="Me.html">Me</a></li></ul></div>
                 
             </nav>
         </div>
@@ -105,7 +105,7 @@
             <div class="content">
                 <header class="page-title">
                     <p>Module</p>
-                    <h1>Relationships</h1>
+                    <h1>relationships</h1>
                 </header>
                 
 
@@ -126,7 +126,7 @@
     <div class="container-overview">
     
         
-            <div class="description">Methods to manage relationships for the `Me` class, with enforced relationship types and validation.</div>
+            <div class="description">Methods to manage relationships for the `Me` class.</div>
         
 
         
@@ -178,9 +178,9 @@
 
     
         <p class="tag-source">
-            <a href="modules_relationships.js.html" class="button">View Source</a>
+            <a href="methods_relationships.js.html" class="button">View Source</a>
             <span>
-                <a href="modules_relationships.js.html">modules/relationships.js</a>, <a href="modules_relationships.js.html#line1">line 1</a>
+                <a href="methods_relationships.js.html">methods/relationships.js</a>, <a href="methods_relationships.js.html#line2">line 2</a>
             </span>
         </p>
     
@@ -252,8 +252,7 @@
     
     
     <div class="description">
-        Add a relationship to the `me` instance.
-Enforces relationship types and allows additional metadata for extensibility.
+        Add a relationship to the identity.
     </div>
     
 
@@ -277,8 +276,6 @@ Enforces relationship types and allows additional metadata for extensibility.
 
             <th>Type</th>
 
-            
-            <th>Attributes</th>
             
 
             
@@ -306,14 +303,6 @@ Enforces relationship types and allows additional metadata for extensibility.
   </td>
 
   
-      <td class="attributes">
-      
-
-      
-
-      
-      </td>
-  
 
   
 
@@ -339,117 +328,11 @@ Enforces relationship types and allows additional metadata for extensibility.
   </td>
 
   
-      <td class="attributes">
-      
-
-      
-
-      
-      </td>
-  
 
   
 
-  <td class="description last">The relationship to add.</td>
+  <td class="description last">The relationship to add (e.g., { username: "alice", status: "friend" }).</td>
 </tr>
-
-  
-  
-    
-<tr class="deep-level-1">
-  
-      <td class="name"><code>type</code></td>
-  
-
-  <td class="type">
-  
-      
-<code class="param-type">string</code>
-
-
-  
-  </td>
-
-  
-      <td class="attributes">
-      
-
-      
-
-      
-      </td>
-  
-
-  
-
-  <td class="description last">The type of relationship (e.g., "friend", "colleague").</td>
-</tr>
-
-  
-    
-<tr class="deep-level-1">
-  
-      <td class="name"><code>username</code></td>
-  
-
-  <td class="type">
-  
-      
-<code class="param-type">string</code>
-
-
-  
-  </td>
-
-  
-      <td class="attributes">
-      
-
-      
-
-      
-      </td>
-  
-
-  
-
-  <td class="description last">The username of the related entity.</td>
-</tr>
-
-  
-    
-<tr class="deep-level-1">
-  
-      <td class="name"><code>meta</code></td>
-  
-
-  <td class="type">
-  
-      
-<code class="param-type">Object</code>
-
-
-  
-  </td>
-
-  
-      <td class="attributes">
-      
-          &lt;optional><br>
-      
-
-      
-
-      
-      </td>
-  
-
-  
-
-  <td class="description last">Additional metadata for the relationship (optional).</td>
-</tr>
-
-  
 
 
         
@@ -494,9 +377,9 @@ Enforces relationship types and allows additional metadata for extensibility.
 
     
         <p class="tag-source">
-            <a href="modules_relationships.js.html" class="button">View Source</a>
+            <a href="methods_relationships.js.html" class="button">View Source</a>
             <span>
-                <a href="modules_relationships.js.html">modules/relationships.js</a>, <a href="modules_relationships.js.html#line39">line 39</a>
+                <a href="methods_relationships.js.html">methods/relationships.js</a>, <a href="methods_relationships.js.html#line14">line 14</a>
             </span>
         </p>
     
@@ -524,7 +407,7 @@ Enforces relationship types and allows additional metadata for extensibility.
                     
 <div class="columns">
     
-    <div class='param-desc column is-7'>If the relationship type or username is invalid.</div>
+    <div class='param-desc column is-7'>If the relationship is invalid.</div>
     <div class='column is-5 has-text-left'>
         <label>Type: </label>
 <code class="param-type">Error</code>
@@ -543,21 +426,6 @@ Enforces relationship types and allows additional metadata for extensibility.
 
 
 
-    <h5>Example</h5>
-    
-    
-        <pre class="prettyprint"><code>// Adding a friend
-addRelationship(relationships, { type: "friend", username: "alice" });
-
-// Adding a group with metadata
-addRelationship(relationships, { 
-  type: "group", 
-  username: "FamilyGroup", 
-  meta: { members: ["alice", "bob"] } 
-});</code></pre>
-    
-
-
 </div>
             
                 <div class="member">
@@ -573,7 +441,7 @@ addRelationship(relationships, {
         
         <span class="code-name">
             
-                getRelationships<span class="signature">(relationships, type<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Array}</span>
+                getRelationships<span class="signature">(relationships)</span><span class="type-signature"> &rarr; {Array}</span>
             
         </span>
     </h4>
@@ -582,7 +450,7 @@ addRelationship(relationships, {
     
     
     <div class="description">
-        Retrieve all relationships for the `me` instance, optionally filtered by type.
+        Retrieve all relationships for the identity.
     </div>
     
 
@@ -606,8 +474,6 @@ addRelationship(relationships, {
 
             <th>Type</th>
 
-            
-            <th>Attributes</th>
             
 
             
@@ -635,53 +501,10 @@ addRelationship(relationships, {
   </td>
 
   
-      <td class="attributes">
-      
-
-      
-
-      
-      </td>
-  
 
   
 
   <td class="description last">The relationships array to retrieve from.</td>
-</tr>
-
-
-        
-
-            
-<tr class="deep-level-0">
-  
-      <td class="name"><code>type</code></td>
-  
-
-  <td class="type">
-  
-      
-<code class="param-type">string</code>
-
-
-  
-  </td>
-
-  
-      <td class="attributes">
-      
-          &lt;optional><br>
-      
-
-      
-
-      
-      </td>
-  
-
-  
-
-  <td class="description last">The type of relationship to filter by (e.g., "friend", "family").</td>
 </tr>
 
 
@@ -727,9 +550,9 @@ addRelationship(relationships, {
 
     
         <p class="tag-source">
-            <a href="modules_relationships.js.html" class="button">View Source</a>
+            <a href="methods_relationships.js.html" class="button">View Source</a>
             <span>
-                <a href="modules_relationships.js.html">modules/relationships.js</a>, <a href="modules_relationships.js.html#line69">line 69</a>
+                <a href="methods_relationships.js.html">methods/relationships.js</a>, <a href="methods_relationships.js.html#line28">line 28</a>
             </span>
         </p>
     
@@ -760,7 +583,7 @@ addRelationship(relationships, {
 
 <div class="columns">
     
-    <div class='param-desc column is-7'>The filtered or full relationships array.</div>
+    <div class='param-desc column is-7'>The relationships array.</div>
     
     
     <div class='column is-5 has-text-left'>
@@ -778,17 +601,6 @@ addRelationship(relationships, {
     </div>
 
 
-
-
-    <h5>Example</h5>
-    
-    
-        <pre class="prettyprint"><code>// Get all relationships
-getRelationships(relationships);
-
-// Get only friends
-getRelationships(relationships, "friend");</code></pre>
-    
 
 
 </div>

@@ -5,7 +5,7 @@
   ...
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>this.me Docs Attributes</title>
+  <title>this.me Docs attributes</title>
 
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -97,7 +97,7 @@
             
             <nav>
                 
-                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Modules</h3><ul><li><a href="a.module_%2520Identity.html"> Identity</a></li><li><a href="module-Attributes.html">Attributes</a></li><li><a href="module-Properties.html">Properties</a></li><li><a href="module-Reactions.html">Reactions</a></li><li><a href="module-Relationships.html">Relationships</a></li></ul><h3>Classes</h3><ul><li><a href="Me.html">Me</a></li></ul></div>
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Modules</h3><ul><li><a href="module-attributes.html">attributes</a></li><li><a href="module-properties.html">properties</a></li><li><a href="module-reactions.html">reactions</a></li><li><a href="module-relationships.html">relationships</a></li></ul><h3>Classes</h3><ul><li><a href="Me.html">Me</a></li></ul></div>
                 
             </nav>
         </div>
@@ -105,7 +105,7 @@
             <div class="content">
                 <header class="page-title">
                     <p>Module</p>
-                    <h1>Attributes</h1>
+                    <h1>attributes</h1>
                 </header>
                 
 
@@ -126,7 +126,7 @@
     <div class="container-overview">
     
         
-            <div class="description">Methods to manage attributes for the `Me` class, with key-vaue pairs.</div>
+            <div class="description">Methods to manage attributes for any object.</div>
         
 
         
@@ -178,9 +178,9 @@
 
     
         <p class="tag-source">
-            <a href="modules_attributes.js.html" class="button">View Source</a>
+            <a href="methods_attributes.js.html" class="button">View Source</a>
             <span>
-                <a href="modules_attributes.js.html">modules/attributes.js</a>, <a href="modules_attributes.js.html#line2">line 2</a>
+                <a href="methods_attributes.js.html">methods/attributes.js</a>, <a href="methods_attributes.js.html#line2">line 2</a>
             </span>
         </p>
     
@@ -243,7 +243,7 @@
         
         <span class="code-name">
             
-                be<span class="signature">(key, value)</span><span class="type-signature"></span>
+                be<span class="signature">(attributes, key, value)</span><span class="type-signature"></span>
             
         </span>
     </h4>
@@ -252,19 +252,7 @@
     
     
     <div class="description">
-        Adds or updates an attribute for the `me` instance.
-
-This method allows you to dynamically add or update descriptive attributes 
-for the `me` instance. Attributes are stored as key-value pairs, where:
-- The **key** represents the name of the attribute (e.g., "name", "age", "location").
-- The **value** represents the data associated with that attribute (e.g., "Sui Gn", 30, "Earth").
-
-You can add as many key-value pairs as you want, giving you the flexibility to describe 
-the `me` instance with plain data. The attributes are stored in an object, and each call 
-to `be` either adds a new attribute or updates an existing one if the key already exists.
-
-This approach ensures that the `me` instance can evolve and be customized over time 
-with additional or modified attributes as needed.
+        Add or update an attribute.
     </div>
     
 
@@ -302,6 +290,31 @@ with additional or modified attributes as needed.
             
 <tr class="deep-level-0">
   
+      <td class="name"><code>attributes</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">Object</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">The attributes object to update.</td>
+</tr>
+
+
+        
+
+            
+<tr class="deep-level-0">
+  
       <td class="name"><code>key</code></td>
   
 
@@ -318,7 +331,7 @@ with additional or modified attributes as needed.
 
   
 
-  <td class="description last">The attribute key (e.g., "name").</td>
+  <td class="description last">The attribute key.</td>
 </tr>
 
 
@@ -334,15 +347,6 @@ with additional or modified attributes as needed.
   
       
 <code class="param-type">string</code>
-|
-
-<code class="param-type">number</code>
-|
-
-<code class="param-type">boolean</code>
-|
-
-<code class="param-type">Object</code>
 
 
   
@@ -352,8 +356,7 @@ with additional or modified attributes as needed.
 
   
 
-  <td class="description last">The attribute value associated with the key. 
-  This can be any data type (e.g., string, number, boolean, or even a nested object).</td>
+  <td class="description last">The attribute value.</td>
 </tr>
 
 
@@ -399,9 +402,9 @@ with additional or modified attributes as needed.
 
     
         <p class="tag-source">
-            <a href="modules_attributes.js.html" class="button">View Source</a>
+            <a href="methods_attributes.js.html" class="button">View Source</a>
             <span>
-                <a href="modules_attributes.js.html">modules/attributes.js</a>, <a href="modules_attributes.js.html#line47">line 47</a>
+                <a href="methods_attributes.js.html">methods/attributes.js</a>, <a href="methods_attributes.js.html#line14">line 14</a>
             </span>
         </p>
     
@@ -427,31 +430,6 @@ with additional or modified attributes as needed.
 
 
 
-    <h5>Example</h5>
-    
-    
-        <pre class="prettyprint"><code>// Adding a single attribute
-me.be("name", "Sui Gn");
-console.log(me.getAttributes()); // { name: "Sui Gn" }
-
-// Adding multiple attributes
-me.be("age", 30);
-me.be("location", "Earth");
-console.log(me.getAttributes()); 
-// Output: { name: "Sui Gn", age: 30, location: "Earth" }
-
-// Updating an existing attribute
-me.be("name", "John Doe");
-console.log(me.getAttributes()); 
-// Output: { name: "John Doe", age: 30, location: "Earth" }
-
-// Using complex data types
-me.be("preferences", { theme: "dark", language: "en" });
-console.log(me.getAttributes());
-// Output: { name: "John Doe", age: 30, location: "Earth", preferences: { theme: "dark", language: "en" } }</code></pre>
-    
-
-
 </div>
             
                 <div class="member">
@@ -467,7 +445,7 @@ console.log(me.getAttributes());
         
         <span class="code-name">
             
-                getAttributes<span class="signature">()</span><span class="type-signature"> &rarr; {Object}</span>
+                getAttributes<span class="signature">(attributes)</span><span class="type-signature"> &rarr; {Object}</span>
             
         </span>
     </h4>
@@ -476,15 +454,7 @@ console.log(me.getAttributes());
     
     
     <div class="description">
-        Retrieves all attributes associated with the `me` instance.
-
-This method provides access to the current set of attributes stored in the `me` instance 
-as an object containing key-value pairs. Each key represents the name of an attribute, 
-and its corresponding value represents the data stored for that attribute.
-
-You can either:
-- Retrieve all attributes at once as a single object.
-- Access specific attributes directly using their keys.
+        Retrieve all attributes.
     </div>
     
 
@@ -495,6 +465,57 @@ You can either:
 
 
 
+
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>attributes</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">Object</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">The attributes object to retrieve from.</td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
 
 
 
@@ -533,9 +554,9 @@ You can either:
 
     
         <p class="tag-source">
-            <a href="modules_attributes.js.html" class="button">View Source</a>
+            <a href="methods_attributes.js.html" class="button">View Source</a>
             <span>
-                <a href="modules_attributes.js.html">modules/attributes.js</a>, <a href="modules_attributes.js.html#line79">line 79</a>
+                <a href="methods_attributes.js.html">methods/attributes.js</a>, <a href="methods_attributes.js.html#line27">line 27</a>
             </span>
         </p>
     
@@ -566,8 +587,7 @@ You can either:
 
 <div class="columns">
     
-    <div class='param-desc column is-7'>An object containing all the key-value pairs representing 
-the attributes of the `me` instance.</div>
+    <div class='param-desc column is-7'>The attributes object.</div>
     
     
     <div class='column is-5 has-text-left'>
@@ -585,21 +605,6 @@ the attributes of the `me` instance.</div>
     </div>
 
 
-
-
-    <h5>Example</h5>
-    
-    
-        <pre class="prettyprint"><code>// Retrieving all attributes
-console.log(me.getAttributes()); 
-// Output: { name: "Sui Gn", age: 30, location: "Earth" }
-
-// Accessing specific attributes by their key
-const attributes = me.getAttributes();
-console.log(attributes.name); // "Sui Gn"
-console.log(attributes.age); // 30
-console.log(attributes.location); // "Earth"</code></pre>
-    
 
 
 </div>
