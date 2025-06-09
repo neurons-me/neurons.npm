@@ -42,7 +42,7 @@ const Ecosystem = () => {
             <strong>Your data, your logic, your results.</strong> Build systems that align with your goals, ensuring clarity and trust through open source.
           </p>
           <div style={{ marginTop: '0.2rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-            <Link to="/contributing" style={dynamicButtonStyle}>Contribute</Link>
+            <Link to="/open-source/contributing" style={dynamicButtonStyle}>Contribute</Link>
             <Link to="/contact" style={dynamicButtonStyle}>Contact</Link>
           </div>
         </div>
