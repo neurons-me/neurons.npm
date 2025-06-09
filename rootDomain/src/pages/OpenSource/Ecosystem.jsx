@@ -26,7 +26,7 @@ const Ecosystem = () => {
     <div className="open-source-page">
    <h1 className="open-source-title">Neurons.me Ecosystem</h1>
       <p className="open-source-intro">
-        Welcome to neurons.me — an open-source initiative that gives users full control over how intelligent systems are built and used. <strong>Instead of allowing algorithms to silently shape your experience without your awareness or consent</strong>, neurons.me puts you in charge through a decentralized identity system called <Link to="/all.this/this.me" style={{ textDecoration: 'underline' }}><strong>this.me</strong></Link>.
+        Welcome to neurons.me — an open-source initiative that gives users full control over how intelligent systems are built and used. <strong>Instead of allowing algorithms to silently shape your experience without your awareness or consent</strong>, neurons.me puts you in charge through a decentralized identity system called <Link to="/all-this/this-me" style={{ textDecoration: 'underline' }}><strong>this.me</strong></Link>.
         <br /><br />
         With your <strong>public key</strong>, you can decrypt the data you've stored across compatible systems, explore how your <strong>.me identity</strong> evolves, and interact with AI on <strong>your own terms</strong>.
       </p>
@@ -119,7 +119,7 @@ const Ecosystem = () => {
                     <strong>All.This</strong><br />
                     A framework for modular data structuring, optimizing ML pipelines.
                   </div>
-                  <a href="https://github.com/neurons-me/all.this" target="_blank" rel="noopener noreferrer" style={{ color: theme.palette.text.primary, fontSize: '14px', textDecoration: 'underline', marginTop: '4px', marginBottom: '4px' }}>
+                  <a href="/all-this" rel="noopener noreferrer" style={{ color: theme.palette.text.primary, fontSize: '14px', textDecoration: 'underline', marginTop: '4px', marginBottom: '4px' }}>
                       Explore
                   </a>
                   <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '0.5rem', gap: '10px' }}>

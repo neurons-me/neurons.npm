@@ -13,6 +13,10 @@ import Contact from './pages/Home/Contact';
 import Ecosystem from './pages/OpenSource/Ecosystem';
 import Contributing from './pages/OpenSource/Contributing';
 import Roadmap from './pages/OpenSource/Roadmap';
+//AllThis
+import AllThis from './pages/AllThis/AllThis';
+import ThisMePage from './pages/AllThis/This.Me';
+
 //Business Solutions
 import BusinessSolutions from './pages/BusinessSolutions/BusinessSolutions';
 import BusinessAI from './pages/BusinessSolutions/AIIntegration';
@@ -37,7 +41,10 @@ const App = () => {
         {/* Open Source */}
         <Route path="/open-source/ecosystem" element={<Ecosystem />} /> 
         <Route path="/open-source/roadmap" element={<Roadmap />} />
-        <Route path="/open-source/contributing" element={<Contributing />} />  
+        <Route path="/open-source/contributing" element={<Contributing />} /> 
+        {/* All.This */}
+        <Route path="/all-this" element={<AllThis />} />
+        <Route path="/all-this/this-me" element={<ThisMePage />} />
         {/* Business Solutions */}
         <Route path="/business" element={<BusinessSolutions />} />
         <Route path="/business/ai" element={<BusinessAI />} />

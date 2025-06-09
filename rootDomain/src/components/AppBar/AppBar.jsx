@@ -46,6 +46,82 @@ const manualRoutes = {
     "How to Contribute": { icon: <VolunteerActivismIcon sx={{ mr: 1, color: '#888' }} />, path: "/open-source/contributing" },
     //"Governance": "/open-source/governance",
   },
+  "All.This": {
+    "all.this": { icon: <Box component="img" src="/media/all-this/webp/all.this.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />, path: "/all-this/" },
+    "this.me": { icon: <Box component="img" src="/media/all-this/webp/this.me.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />, path: "/all-this/this-me" },
+    "this.wallet": {
+      icon: <Box component="img" src="/media/all-this/webp/this.wallet.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
+      path: "https://github.com/neurons-me/this.wallet",
+      external: true
+    },
+    "this.img": {
+      icon: <Box component="img" src="/media/all-this/webp/this.img.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
+      path: "https://github.com/neurons-me/this.img",
+      external: true
+    },
+    "this.audio": {
+      icon: <Box component="img" src="/media/all-this/webp/this.audio.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
+      path: "https://github.com/neurons-me/this.audio",
+      external: true
+    },
+    "this.blockchain": {
+      icon: <Box component="img" src="/media/all-this/webp/this.blockchain.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
+      path: "https://github.com/neurons-me/this.blockchain",
+      external: true
+    },
+    "this.pixel": {
+      icon: <Box component="img" src="/media/all-this/webp/this.pixel.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
+      path: "https://github.com/neurons-me/this.pixel",
+      external: true
+    },
+    "this.video": {
+      icon: <Box component="img" src="/media/all-this/webp/this.video.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
+      path: "https://github.com/neurons-me/this.video",
+      external: true
+    },
+    "this.DOM": {
+      icon: <Box component="img" src="/media/all-this/webp/this.DOM.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
+      path: "https://github.com/neurons-me/this.DOM",
+      external: true
+    },
+    "this.dictionaries": {
+      icon: <Box component="img" src="/media/all-this/webp/this.dictionaries.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
+      path: "https://github.com/neurons-me/this.dictionaries",
+      external: true
+    },
+    "this.env": {
+      icon: <Box component="img" src="/media/all-this/webp/this.env.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
+      path: "https://github.com/neurons-me/this.env",
+      external: true
+    },
+    "this.GUI": {
+      icon: <Box component="img" src="/media/all-this/webp/this.gui.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
+      path: "https://github.com/neurons-me/this.GUI",
+      external: true
+    },
+    "this.text": {
+      icon: <Box component="img" src="/media/all-this/webp/this.text.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
+      path: "https://github.com/neurons-me/this.text",
+      external: true
+    },
+    "this.url": {
+      icon: <Box component="img" src="/media/all-this/webp/this.url.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
+      path: "https://github.com/neurons-me/this.url",
+      external: true
+    },
+    "this.dir": {
+      icon: <Box component="img" src="/media/all-this/webp/this.dir.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
+      path: "https://github.com/neurons-me/this.dir",
+      external: true
+    }
+  },
+  "Netget": {
+    "Netget": {
+      icon: <PublicIcon sx={{ mr: 1, color: '#888' }} />,
+      path: "https://netget.me",
+      external: true
+    }
+  },
   "Business Solutions": {
     "Business Solutions": "/business-solutions",
     "Getting your Data Ready": { icon: <BarChartIcon sx={{ mr: 1, color: '#888' }} />, path: "/business/data" },
@@ -72,6 +148,8 @@ export default function NavBar() {
       setSelectedSection('Open Source');
     } else if (location.pathname.startsWith('/business')) {
       setSelectedSection('Business Solutions');
+    } else if (location.pathname.startsWith('/all-this')) {
+      setSelectedSection('All.This');
     } else {
       setSelectedSection('Home');
     }
@@ -96,12 +174,16 @@ export default function NavBar() {
               setSelectedSection(section);
               if (section === 'Home') navigate('/home');
               else if (section === 'Open Source') navigate('/open-source/ecosystem');
+              else if (section === 'All.This') navigate('/all-this');
+              else if (section === 'Netget') window.open('https://netget.me', '_blank');
               else if (section === 'Business Solutions') navigate('/business-solutions');
             }}
           >
             <MenuItem value="Home">Home</MenuItem>
             <MenuItem value="Business Solutions">Business Solutions</MenuItem>
             <MenuItem value="Open Source">Open Source Tech</MenuItem>
+            <MenuItem value="All.This">All.This</MenuItem>
+            <MenuItem value="Netget">Netget</MenuItem>
           </Select>
         </FormControl>
       </Box>
@@ -112,6 +194,32 @@ export default function NavBar() {
         {Object.entries(manualRoutes[selectedSection] || {}).map(([label, value]) => {
           const path = typeof value === 'string' ? value : value.path;
           const icon = typeof value === 'object' && value.icon ? value.icon : null;
+          const external = typeof value === 'object' && value.external;
+          if (external || path.startsWith('http')) {
+            return (
+              <a
+                key={label}
+                href={path}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: 'none', color: 'inherit' }}
+              >
+                <ListItemButton
+                  sx={{
+                    '& .MuiListItemText-primary': {
+                      color: theme.palette.text.primary,
+                      fontWeight: 400,
+                      display: 'flex',
+                      alignItems: 'center'
+                    }
+                  }}
+                >
+                  {icon}
+                  <ListItemText primary={label} />
+                </ListItemButton>
+              </a>
+            );
+          }
           return (
             <ListItemButton
               key={label}
