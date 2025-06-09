@@ -21,6 +21,15 @@ import {
 import MenuIcon from '@mui/icons-material/Menu';
 import DarkMode from '@mui/icons-material/DarkMode';
 import LightMode from '@mui/icons-material/LightMode';
+import SmartToyIcon from '@mui/icons-material/SmartToy';
+import BarChartIcon from '@mui/icons-material/BarChart';
+import BuildIcon from '@mui/icons-material/Build';
+import SecurityIcon from '@mui/icons-material/Security';
+import CampaignIcon from '@mui/icons-material/Campaign';
+import BrushIcon from '@mui/icons-material/Brush';
+import PublicIcon from '@mui/icons-material/Public';
+import MapIcon from '@mui/icons-material/Map';
+import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import { useThemeToggle } from '../../context/ThemeContext';
 
 const drawerWidth = 240;
@@ -32,18 +41,19 @@ const manualRoutes = {
     "Contact": "/contact"
   },
   "Open Source": {
-    "Ecosystem": "/open-source/ecosystem",
-    "How to Contribute": "/open-source/contributing",
-    "Governance": "/open-source/governance",
-    "Roadmap": "/open-source/roadmap",
+    "Ecosystem": { icon: <PublicIcon sx={{ mr: 1, color: '#888' }} />, path: "/open-source/ecosystem" },
+    "Roadmap": { icon: <MapIcon sx={{ mr: 1, color: '#888' }} />, path: "/open-source/roadmap" },
+    "How to Contribute": { icon: <VolunteerActivismIcon sx={{ mr: 1, color: '#888' }} />, path: "/open-source/contributing" },
+    //"Governance": "/open-source/governance",
   },
   "Business Solutions": {
     "Business Solutions": "/business-solutions",
-    "AI Integration": "/business/ai",
-    "Data Driven Decisions": "/business/data",
-    "Marketing Solutions": "/business/marketing",
-    "Branding": "/business/branding",
-    "System Development": "/business/system-development"
+    "Getting your Data Ready": { icon: <BarChartIcon sx={{ mr: 1, color: '#888' }} />, path: "/business/data" },
+    "AI Integration": { icon: <SmartToyIcon sx={{ mr: 1, color: '#888' }} />, path: "/business/ai" },
+    "System Development": { icon: <BuildIcon sx={{ mr: 1, color: '#888' }} />, path: "/business/system-development" },
+    "Cyber Security": { icon: <SecurityIcon sx={{ mr: 1, color: '#888' }} />, path: "/business/cyber-security" },
+    "Marketing Solutions": { icon: <CampaignIcon sx={{ mr: 1, color: '#888' }} />, path: "/business/marketing" },
+    "Branding": { icon: <BrushIcon sx={{ mr: 1, color: '#888' }} />, path: "/business/branding" }
   }
 };
 
@@ -90,8 +100,8 @@ export default function NavBar() {
             }}
           >
             <MenuItem value="Home">Home</MenuItem>
-            <MenuItem value="Open Source">Open Source</MenuItem>
             <MenuItem value="Business Solutions">Business Solutions</MenuItem>
+            <MenuItem value="Open Source">Open Source Tech</MenuItem>
           </Select>
         </FormControl>
       </Box>
@@ -99,22 +109,29 @@ export default function NavBar() {
       <Divider />
 
       <List>
-        {Object.entries(manualRoutes[selectedSection] || {}).map(([label, path]) => (
-          <ListItemButton
-            key={label}
-            component={Link}
-            to={path}
-            selected={location.pathname === path}
-            sx={{
-              '& .MuiListItemText-primary': {
-                color: location.pathname === path ? 'rgb(0,154,137)' : theme.palette.text.primary,
-                fontWeight: location.pathname === path ? 500 : 400,
-              }
-            }}
-          >
-            <ListItemText primary={label} />
-          </ListItemButton>
-        ))}
+        {Object.entries(manualRoutes[selectedSection] || {}).map(([label, value]) => {
+          const path = typeof value === 'string' ? value : value.path;
+          const icon = typeof value === 'object' && value.icon ? value.icon : null;
+          return (
+            <ListItemButton
+              key={label}
+              component={Link}
+              to={path}
+              selected={location.pathname === path}
+              sx={{
+                '& .MuiListItemText-primary': {
+                  color: location.pathname === path ? 'rgb(0,154,137)' : theme.palette.text.primary,
+                  fontWeight: location.pathname === path ? 500 : 400,
+                  display: 'flex',
+                  alignItems: 'center'
+                }
+              }}
+            >
+              {icon}
+              <ListItemText primary={label} />
+            </ListItemButton>
+          );
+        })}
       </List>
     </Box>
   );

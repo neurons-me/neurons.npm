@@ -71,7 +71,7 @@ const Home = () => {
             <img src="https://media.licdn.com/dms/image/v2/D560BAQGI7dNK-Y2QQg/company-logo_100_100/B56ZWvKMXUHEAQ-/0/1742400441107/fulltrailer_logo?e=1754524800&amp;v=beta&amp;t=fJTY6ajDfVa219pO87twAA5AclbEzG2u41jBng0s_sQ" alt="Fulltrailer" style={clientLogoStyle} />
           </a>
           <a href="https://www.hyundaisureste.mx" target="_blank" rel="noopener noreferrer">
-            <img src="https://lh5.googleusercontent.com/GAf4AA24ltq8O6WcJXGkXIBwYFiHPVcWLwgGs-Me8hLe7I5AGHprpClwXOMkDk4Mbv13nAMZZSnbU7DUiS3E5lk=w16383" alt="Hyundai Sureste México" style={clientLogoStyle} />
+            <img src="media/hyundai.png" alt="Hyundai Sureste México" style={clientLogoStyle} />
           </a>
           <a href="https://www.facebook.com/MexicoEncuestaOficial/" target="_blank" rel="noopener noreferrer">
             <img src="/media/mexicoEncuesta.png" alt="México Encuesta Oficial" style={clientLogoStyle} />

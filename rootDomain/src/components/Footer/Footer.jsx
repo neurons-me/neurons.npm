@@ -36,7 +36,7 @@ const Footer = () => {
               cursor: "pointer",
               "&:hover": { opacity: 0.8 },
             }}
-            onClick={() => window.open("https://instagram.com", "_blank")}
+            onClick={() => window.open("https://instagram.com/neurons.me", "_blank")}
           />
           <GitHubIcon
             sx={{
@@ -45,7 +45,7 @@ const Footer = () => {
               cursor: "pointer",
               "&:hover": { opacity: 0.8 },
             }}
-            onClick={() => window.open("https://github.com", "_blank")}
+            onClick={() => window.open("https://github.com/neurons-me", "_blank")}
           />
         </Box>
 

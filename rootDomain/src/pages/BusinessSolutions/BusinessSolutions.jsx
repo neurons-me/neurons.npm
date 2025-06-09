@@ -1,6 +1,12 @@
 import React, { useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { FaGithub, FaInstagram, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+import SmartToyIcon from '@mui/icons-material/SmartToy';
+import BarChartIcon from '@mui/icons-material/BarChart';
+import BuildIcon from '@mui/icons-material/Build';
+import SecurityIcon from '@mui/icons-material/Security';
+import CampaignIcon from '@mui/icons-material/Campaign';
+import BrushIcon from '@mui/icons-material/Brush';
 
 const BusinessSolutions = () => {
   const canvasRef = useRef(null);
@@ -63,7 +69,6 @@ const BusinessSolutions = () => {
     height: '42px',
     width: 'auto',
     opacity: 0.6,
-    filter: 'grayscale(100%)',
     transition: 'opacity 0.3s',
     cursor: 'pointer',
   };
@@ -79,7 +84,7 @@ const BusinessSolutions = () => {
 
       {/* Logo Image Linked to Home */}
       <Link to="/" style={imageLinkStyle}>
-        <img src="/media/neurons-grey.png" alt="Neurons Logo" style={imageStyle} />
+      <img src="/neurons.me.png" alt="Neurons Logo" style={{ width: '103px', height: 'auto' }} />
       </Link>
 
       <h1>Business Solutions</h1>
@@ -107,33 +112,33 @@ const BusinessSolutions = () => {
       {/* Elegant Grid Section with Links to MDX */}
       <div style={gridContainerStyle}>
 
-      <div className="grid-item" onClick={() => handleGridClick('business/ai')}>
-          <h3>🔌 Plug In Your Data</h3>
-          <p>Seamlessly integrate your data sources to empower AI-driven processes and real-time insights.</p>
+      <div className="grid-item" onClick={() => handleGridClick('business/data')}>
+          <h3><BarChartIcon style={{ verticalAlign: 'middle', marginRight: '8px', color: '#888' }} />Getting Your Data Ready.</h3>
+          <p>We help you collect, clean, and structure your business data — the first step toward becoming data-driven and ready for AI integration.</p>
         </div>
 
-        <div className="grid-item" onClick={() => handleGridClick('business/data')}>
-          <h3>📊 Preparing Your Business for Data-Driven Decisions</h3>
-          <p>Unlock the power of data analytics to make informed decisions and optimize your workflows.</p>
+      <div className="grid-item" onClick={() => handleGridClick('business/ai')}>
+          <h3><SmartToyIcon style={{ verticalAlign: 'middle', marginRight: '8px', color: '#888' }} />AI Integration</h3>
+          <p>Turn structured data into smart decisions by integrating AI to automate, optimize, and grow.</p>
         </div>
 
         <div className="grid-item" onClick={() => handleGridClick('business/system-development')}>
-          <h3>🛠️ System Development and Administration</h3>
+          <h3><BuildIcon style={{ verticalAlign: 'middle', marginRight: '8px', color: '#888' }} />System Development and Administration</h3>
           <p>Custom development and administrative solutions to ensure your systems are scalable and secure.</p>
         </div>
 
-        <div className="grid-item" onClick={() => handleGridClick('business/ai')}>
-          <h3>🤖 Preparing and Integrating Businesses for the AI Era</h3>
-          <p>Future-proof your operations by incorporating AI tools that adapt and evolve with your business.</p>
-        </div>
+        <div className="grid-item" onClick={() => handleGridClick('business/cyber-security')}>
+        <h3><SecurityIcon style={{ verticalAlign: 'middle', marginRight: '8px', color: '#888' }} />Cyber Security and Infrastructure Protection</h3>
+        <p>Ensure the integrity and security of your digital assets with modern infrastructure and cybersecurity strategies.</p>
+      </div>
 
         <div className="grid-item" onClick={() => handleGridClick('business/marketing')}>
-          <h3>📣 Marketing Solutions in the Digital World</h3>
+          <h3><CampaignIcon style={{ verticalAlign: 'middle', marginRight: '8px', color: '#888' }} />Marketing Solutions in the Digital World</h3>
           <p>Boost visibility, engagement, and conversion through data-driven digital marketing strategies.</p>
         </div>
 
         <div className="grid-item" onClick={() => handleGridClick('business/branding')}>
-          <h3>🎨 Professional Branding and Guidelines</h3>
+          <h3><BrushIcon style={{ verticalAlign: 'middle', marginRight: '8px', color: '#888' }} />Professional Branding and Guidelines</h3>
           <p>Craft a cohesive brand identity that resonates with your audience and stands out in the market.</p>
         </div>
       </div>
@@ -160,7 +165,7 @@ const BusinessSolutions = () => {
             <img src="https://media.licdn.com/dms/image/v2/D560BAQGI7dNK-Y2QQg/company-logo_100_100/B56ZWvKMXUHEAQ-/0/1742400441107/fulltrailer_logo?e=1754524800&amp;v=beta&amp;t=fJTY6ajDfVa219pO87twAA5AclbEzG2u41jBng0s_sQ" alt="Fulltrailer" style={clientLogoStyle} />
           </a>
           <a href="https://www.hyundaisureste.mx" target="_blank" rel="noopener noreferrer">
-            <img src="https://lh5.googleusercontent.com/GAf4AA24ltq8O6WcJXGkXIBwYFiHPVcWLwgGs-Me8hLe7I5AGHprpClwXOMkDk4Mbv13nAMZZSnbU7DUiS3E5lk=w16383" alt="Hyundai Sureste México" style={clientLogoStyle} />
+            <img src="/media/hyundai.png" alt="Hyundai Sureste México" style={clientLogoStyle} />
           </a>
           <a href="https://www.facebook.com/MexicoEncuestaOficial/" target="_blank" rel="noopener noreferrer">
             <img src="/media/mexicoEncuesta.png" alt="México Encuesta Oficial" style={clientLogoStyle} />

@@ -26,9 +26,9 @@ const Ecosystem = () => {
     <div className="open-source-page">
    <h1 className="open-source-title">Neurons.me Ecosystem</h1>
       <p className="open-source-intro">
-        Welcome to the <strong>neurons.me</strong> project — a <strong>collaborative, open-source ecosystem</strong> designed to <strong>empower individuals and organizations</strong> 
-        to shape their own intelligent systems. Today, most AI models operate behind the scenes — collecting data and influencing decisions without user awareness or control. 
-        <strong> neurons.me</strong> aims to build a safe and transparent ecosystem where people can use AI to their advantage, rather than be passively guided by algorithms to places they didn’t choose.
+        Welcome to neurons.me — an open-source initiative that gives users full control over how intelligent systems are built and used. <strong>Instead of allowing algorithms to silently shape your experience without your awareness or consent</strong>, neurons.me puts you in charge through a decentralized identity system called <Link to="/all.this/this.me" style={{ textDecoration: 'underline' }}><strong>this.me</strong></Link>.
+        <br /><br />
+        With your <strong>public key</strong>, you can decrypt the data you've stored across compatible systems, explore how your <strong>.me identity</strong> evolves, and interact with AI on <strong>your own terms</strong>.
       </p>
 
       <div className="open-source-algorithmic-section" style={{ display: 'flex', alignItems: 'flex-start', gap: '2rem', flexWrap: 'wrap' }}>
@@ -42,7 +42,6 @@ const Ecosystem = () => {
             <strong>Your data, your logic, your results.</strong> Build systems that align with your goals, ensuring clarity and trust through open source.
           </p>
           <div style={{ marginTop: '0.2rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-            <Link to="/contributing" style={dynamicButtonStyle}>Ecosystem</Link>
             <Link to="/contributing" style={dynamicButtonStyle}>Contribute</Link>
             <Link to="/contact" style={dynamicButtonStyle}>Contact</Link>
           </div>
