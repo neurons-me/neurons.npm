@@ -51,9 +51,12 @@ const Home = () => {
         <Link to="/open-source" style={{ ...dynamicButtonStyle, marginRight: '12px' }}>
           Explore Open Source Libraries
         </Link>
+        
+        {/*
         <Link to="/blog" style={dynamicButtonStyle}>
           Read Our Blog
         </Link>
+        */}
       </div>
       <div style={clientSectionStyle}>
         <p style={{ marginBottom: '21px', fontWeight: 'bold' }}>Trusted by forward-thinking teams</p>
