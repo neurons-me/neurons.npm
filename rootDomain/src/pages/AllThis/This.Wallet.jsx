@@ -7,12 +7,21 @@ import { useTheme } from '@mui/material/styles';
 const ThisWallet = () => {
   const theme = useTheme();
 
-  const iconLinkStyle = {
+  const buttonStyle = {
+    display: 'inline-block',
+    padding: '10px 16px',
+    border: `1px solid ${theme.palette.divider}`,
+    borderRadius: '6px',
     color: theme.palette.text.primary,
-    fontSize: '26px',
-    marginRight: '16px',
+    textDecoration: 'none',
+    fontWeight: 'bold',
+    fontSize: '14px',
+    transition: 'background-color 0.3s ease',
+    '&:hover': {
+      backgroundColor: theme.palette.mode === 'dark' ? '#222' : '#eee',
+    },
   };
-
+  
   const commandBoxStyle = {
     backgroundColor: theme.palette.mode === 'dark' ? '#111' : '#f5f5f5',
     border: `1px solid ${theme.palette.divider}`,
@@ -46,55 +55,37 @@ const ThisWallet = () => {
       This.Wallet</Typography>
       <Typography variant="subtitle1" gutterBottom>Crypto Wallets for <strong>.me</strong></Typography>
 
-      <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, marginTop: 2 }}>
-        <Link
-          href="https://github.com/neurons-me/this.wallet"
-          target="_blank"
-          rel="noopener noreferrer"
-          sx={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 1,
-            padding: '8px 16px',
-            border: `1px solid ${theme.palette.text.primary}`,
-            borderRadius: '6px',
-            color: theme.palette.text.primary,
-            textDecoration: 'none',
-            fontSize: '14px',
-            transition: 'background-color 0.3s ease',
-            '&:hover': {
-              backgroundColor: theme.palette.mode === 'dark' ? '#222' : '#eee',
-            },
-          }}
-        >
-          <FaGithub />
-          GitHub Repository
-        </Link>
+      <Box
+  sx={{
+    display: 'flex',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+    gap: 2,
+    mb: 4,
+  }}
+>
+  <Box
+    component="a"
+    href="https://github.com/neurons-me/this.wallet"
+    target="_blank"
+    rel="noopener noreferrer"
+    sx={buttonStyle}
+  >
+    <FaGithub style={{ marginRight: '8px' }} />
+    GitHub Repository
+  </Box>
+  <Box
+    component="a"
+    href="https://www.npmjs.com/package/this.wallet"
+    target="_blank"
+    rel="noopener noreferrer"
+    sx={buttonStyle}
+  >
+    <FaNpm style={{ marginRight: '8px' }} />
+    npm Module
+  </Box>
+</Box>
 
-        <Link
-          href="https://www.npmjs.com/package/this.wallet"
-          target="_blank"
-          rel="noopener noreferrer"
-          sx={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 1,
-            padding: '8px 16px',
-            border: `1px solid ${theme.palette.text.primary}`,
-            borderRadius: '6px',
-            color: theme.palette.text.primary,
-            textDecoration: 'none',
-            fontSize: '14px',
-            transition: 'background-color 0.3s ease',
-            '&:hover': {
-              backgroundColor: theme.palette.mode === 'dark' ? '#222' : '#eee',
-            },
-          }}
-        >
-          <FaNpm />
-          NPM Module
-        </Link>
-      </Box>
 
       <Box sx={{ textAlign: 'left', display: 'inline-block', marginTop: '24px' }}>
         <Typography variant="body2" sx={{ fontWeight: 600, marginBottom: '4px' }}>

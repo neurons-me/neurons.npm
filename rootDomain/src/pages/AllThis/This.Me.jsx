@@ -7,6 +7,22 @@ import { FaGithub, FaNpm } from 'react-icons/fa';
 export default function ThisMePage() {
   const theme = useTheme();
 
+  const buttonStyle = {
+    display: 'inline-block',
+    padding: '10px 16px',
+    border: `1px solid ${theme.palette.divider}`,
+    borderRadius: '6px',
+    color: theme.palette.text.primary,
+    textDecoration: 'none',
+    fontWeight: 'bold',
+    fontSize: '14px',
+    transition: 'background-color 0.3s ease',
+    '&:hover': {
+      backgroundColor: theme.palette.mode === 'dark' ? '#222' : '#eee',
+    },
+  };
+  
+
   const codeBlockStyle = {
     backgroundColor: theme.palette.mode === 'dark' ? '#111' : '#f5f5f5',
     border: `1px solid ${theme.palette.divider}`,
@@ -53,65 +69,36 @@ export default function ThisMePage() {
         </Typography>
 
         <Box
-          sx={{
-            display: 'flex',
-            justifyContent: 'center',
-            flexWrap: 'wrap',
-            gap: 2,
-            mb: 4,
-          }}
-        >
-          <Link
-            href="https://github.com/neurons-me/this.me"
-            target="_blank"
-            rel="noopener noreferrer"
-            sx={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: 1,
-              px: 2,
-              py: 1,
-              border: `1px solid ${theme.palette.text.primary}`,
-              borderRadius: '6px',
-              textDecoration: 'none',
-              color: theme.palette.text.primary,
-              fontSize: '14px',
-              fontWeight: 'bold',
-              transition: 'background-color 0.3s ease',
-              '&:hover': {
-                backgroundColor: theme.palette.mode === 'dark' ? '#222' : '#eee',
-              },
-            }}
-          >
-            <FaGithub />
-            GitHub Repository
-          </Link>
-          <Link
-            href="https://www.npmjs.com/package/this.me"
-            target="_blank"
-            rel="noopener noreferrer"
-            sx={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: 1,
-              px: 2,
-              py: 1,
-              border: `1px solid ${theme.palette.text.primary}`,
-              borderRadius: '6px',
-              textDecoration: 'none',
-              color: theme.palette.text.primary,
-              fontSize: '14px',
-              fontWeight: 'bold',
-              transition: 'background-color 0.3s ease',
-              '&:hover': {
-                backgroundColor: theme.palette.mode === 'dark' ? '#222' : '#eee',
-              },
-            }}
-          >
-            <FaNpm />
-            npm Module
-          </Link>
-        </Box>
+  sx={{
+    display: 'flex',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+    gap: 2,
+    mb: 4,
+  }}
+>
+  <Box
+    component="a"
+    href="https://github.com/neurons-me/this.me"
+    target="_blank"
+    rel="noopener noreferrer"
+    sx={buttonStyle}
+  >
+    <FaGithub style={{ marginRight: '8px' }} />
+    GitHub Repository
+  </Box>
+  <Box
+    component="a"
+    href="https://www.npmjs.com/package/this.me"
+    target="_blank"
+    rel="noopener noreferrer"
+    sx={buttonStyle}
+  >
+    <FaNpm style={{ marginRight: '8px' }} />
+    npm Module
+  </Box>
+</Box>
+
 
         {/* Installation & CLI */}
         <Box sx={{ textAlign: 'left', mx: 'auto', maxWidth: 600, mb: 4 }}>
