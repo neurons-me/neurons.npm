@@ -108,6 +108,10 @@ const ThisBlockchain = () => {
           this.pixel →
         </RouterLink>
       </Box>
+      <Typography sx={{ fontSize: '0.9rem', color: '#777', marginTop:'21px'}}>
+            Author: suiGn / neurons.me<br />
+            License: MIT — <a href="https://www.npmjs.com/package/this.blockchain">this.blockchain</a>
+          </Typography>
     </Box>
   );
 };

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Box, Typography, Link } from '@mui/material';
+import { Box, Typography } from '@mui/material';
+import { Link } from 'react-router-dom';
 import { FaGithub, FaNpm } from 'react-icons/fa';
 import { useTheme } from '@mui/material/styles';
 
@@ -93,12 +94,17 @@ const ThisURL = () => {
 
       <Box sx={{ marginTop: '2rem', display: 'flex', justifyContent: 'space-between' }}>
         <Link to="/all-this/this-text" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
-          ← This.Text
+          ← this.text
         </Link>
         <Link to="/all-this/this-dir" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
-          This.Dir →
+          this.dir →
         </Link>
       </Box>
+
+      <Typography sx={{ fontSize: '0.9rem', color: '#777', marginTop:'21px'}}>
+            Author: suiGn / neurons.me<br />
+            License: MIT — <a href="https://www.npmjs.com/package/this.url">this.url</a>
+          </Typography>
     </Box>
   );
 };

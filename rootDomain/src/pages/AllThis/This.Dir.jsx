@@ -103,6 +103,11 @@ const ThisDir = () => {
         </Typography>
         <Box sx={commandBoxStyle}>import Dir from 'this.dir'</Box>
       </Box>
+
+      <Typography sx={{ fontSize: '0.9rem', color: '#777', marginTop:'21px'}}>
+            Author: suiGn / neurons.me<br />
+            License: MIT — <a href="https://www.npmjs.com/package/this.dir">this.dir</a>
+          </Typography>
     </Box>
   );
 };

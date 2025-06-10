@@ -82,12 +82,17 @@ const ThisDOM = () => {
 
       <Box sx={{ marginTop: '2rem', display: 'flex', justifyContent: 'space-between' }}>
         <RouterLink to="/all-this/this-video" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
-          ← This.Video
+          ← this.video
         </RouterLink>
         <RouterLink to="/all-this/this-dictionaries" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
-          This.Dictionaries →
+          this.dictionaries →
         </RouterLink>
       </Box>
+
+      <Typography sx={{ fontSize: '0.9rem', color: '#777', marginTop:'21px'}}>
+            Author: suiGn / neurons.me<br />
+            License: MIT — <a href="https://www.npmjs.com/package/this.dom">this.DOM</a>
+          </Typography>
     </Box>
   );
 };

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Box, Typography, Link } from '@mui/material';
+import { Box, Typography } from '@mui/material';
+import { Link } from 'react-router-dom';
 import { FaGithub, FaNpm } from 'react-icons/fa';
 import { useTheme } from '@mui/material/styles';
 
@@ -91,12 +92,17 @@ const ThisImg = () => {
 
       <Box sx={{ marginTop: '2rem', display: 'flex', justifyContent: 'space-between' }}>
         <Link to="/all-this/this-wallet" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
-          ← This.Wallet
+          ← this.wallet
         </Link>
         <Link to="/all-this/this-audio" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
-          This.Audio →
+          this.audio →
         </Link>
       </Box>
+
+      <Typography sx={{ fontSize: '0.9rem', color: '#777', marginTop:'21px'}}>
+            Author: suiGn / neurons.me<br />
+            License: MIT — <a href="https://www.npmjs.com/package/this.img">this.img</a>
+          </Typography>
     </Box>
   );
 };

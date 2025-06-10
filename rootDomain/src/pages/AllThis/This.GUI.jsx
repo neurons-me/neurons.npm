@@ -90,7 +90,6 @@ const ThisGUI = () => {
           Install npm package:
         </Typography>
         <Box sx={commandBoxStyle}>npm i this.gui</Box>
-
         <Typography variant="body2" sx={{ fontWeight: 600, marginTop: '16px', marginBottom: '4px' }}>
           Import this.gui in your project:
         </Typography>
@@ -99,12 +98,17 @@ const ThisGUI = () => {
 
       <Box sx={{ marginTop: '2rem', display: 'flex', justifyContent: 'space-between' }}>
         <RouterLink to="/all-this/this-env" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
-          ← This.Env
+          ← this.env
         </RouterLink>
-        <RouterLink to="/all-this/this-img" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
-          This.Img →
+        <RouterLink to="/all-this/this-text" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
+          this.text →
         </RouterLink>
       </Box>
+
+      <Typography sx={{ fontSize: '0.9rem', color: '#777', marginTop:'21px'}}>
+            Author: suiGn / neurons.me<br />
+            License: MIT — <a href="https://www.npmjs.com/package/this.gui">this.GUI</a>
+          </Typography>
     </Box>
   );
 };
