@@ -116,8 +116,8 @@ export default function ThisMePage() {
           <Box sx={codeBlockStyle}>me</Box>
         </Box>
 
-        {/* Tagline */}
-        <Typography
+    {/* Tagline */}
+    <Typography
           variant="h4"
           fontWeight="bold"
           sx={{
@@ -135,19 +135,66 @@ export default function ThisMePage() {
           sx={{
             fontStyle: 'italic',
             color: '#555',
-            maxWidth: 300,
+            maxWidth: 610,
+            textAlign: 'left',
             mx: 'auto',
             mb: 4,
           }}
         >
-          .me is the subject. It’s the one who says “I”. It is the private key, the biography, the will.
+          <strong>.me</strong> is the subject. It’s the one who says “I”. It is the private key, the biography, the will.
           <br />
-          .me is local, silent, static. It doesn’t “live” or listen. It is only queried — and it affirms.
+          <strong>.me</strong> is local, silent, static. It doesn’t “live” or listen. It is only queried — and it affirms.
         </Typography>
+        <Box sx={{ textAlign: 'left', mx: 'auto', maxWidth: 600, mb: 4 }}>
+          <Typography>
+          <strong>.me</strong> is your identity that lives on your machine, under your control. 
+          It holds attributes, relationships, and keys that define who you are—and crucially, <strong>how you relate to others</strong>.
+        Each <strong>.me</strong> instance can pair with other authorities or identities using its <strong>cryptographic keys</strong>, establishing <strong>trust through signatures and endorsements</strong>. 
+        Instead of logging in through third-party services, you can validate your identity or vouch for someone else’s using these key exchanges.
+         This enables a decentralized trust model where relationships are verifiable, persistent, and portable.
+      </Typography>
+        </Box>
+
+        <Box sx={{ textAlign: 'left', mx: 'auto', maxWidth: 600, mt: 4 }}>
+          <Typography variant="h5" fontWeight="bold" gutterBottom>
+            Command Line Options:
+          </Typography>
+
+          <Box sx={codeBlockStyle}>me create</Box>
+          <Typography variant="body2" gutterBottom>
+            <strong>Description:</strong> Creates a new .me identity.
+            <br />
+            <strong>Flow:</strong> Prompts for username and hash (secret key), then saves an encrypted file at ~/.this/me/username.me.
+          </Typography>
+
+          <Box sx={{ my: 2, borderBottom: '1px dashed', borderColor: 'divider' }} />
+
+          <Box sx={codeBlockStyle}>me show [username]</Box>
+          <Typography variant="body2" gutterBottom>
+            <strong>Description:</strong> Shows the decrypted contents of an identity.
+            <br />
+            <strong>Flow:</strong>
+            <ul style={{ marginTop: 0 }}>
+              <li>If [username] is not provided, it prompts for it.</li>
+              <li>Always prompts for the hash to unlock the identity.</li>
+              <li>If successful, prints the identity as JSON.</li>
+            </ul>
+          </Typography>
+
+          <Box sx={{ my: 2, borderBottom: '1px dashed', borderColor: 'divider' }} />
+
+          <Box sx={codeBlockStyle}>me list</Box>
+          <Typography variant="body2" gutterBottom>
+            <strong>Description:</strong> Lists all local .me identities.
+            <br />
+            <strong>Flow:</strong> Reads the ~/.this/me directory and prints all .me files (usernames).
+          </Typography>
+        </Box>
       </Box>
 
       {/* Main content text */}
       <Box sx={{ textAlign: 'left', mt: 2 }}>
+        <Box sx={{ my: 5, borderBottom: '1px solid', borderColor: 'divider' }} />
         <Typography variant="h4" fontWeight="bold" gutterBottom>
           The Problem: Decentralized Yet Trustworthy
         </Typography>
