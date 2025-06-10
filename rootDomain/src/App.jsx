@@ -14,9 +14,21 @@ import Ecosystem from './pages/OpenSource/Ecosystem';
 import Contributing from './pages/OpenSource/Contributing';
 import Roadmap from './pages/OpenSource/Roadmap';
 //AllThis
-import AllThis from './pages/AllThis/AllThis';
+import AllThis from './pages/AllThis/All.This';
 import ThisMePage from './pages/AllThis/This.Me';
-
+import ThisWallet from './pages/AllThis/This.Wallet';
+import ThisImg from './pages/AllThis/This.Img';
+import ThisAudio from './pages/AllThis/This.Audio';
+import ThisBlockchain from './pages/AllThis/This.Blockchain';
+import ThisPixel from './pages/AllThis/This.Pixel';
+import ThisVideo from './pages/AllThis/This.Video';
+import ThisDOM from './pages/AllThis/This.DOM';
+import ThisDictionaries from './pages/AllThis/This.Dictionaries';
+import ThisEnv from './pages/AllThis/This.Env';
+import ThisGUI from './pages/AllThis/This.GUI';
+import ThisText from './pages/AllThis/This.Text';
+import ThisURL from './pages/AllThis/This.URL';
+import ThisDir from './pages/AllThis/This.Dir';
 //Business Solutions
 import BusinessSolutions from './pages/BusinessSolutions/BusinessSolutions';
 import BusinessAI from './pages/BusinessSolutions/AIIntegration';
@@ -45,6 +57,20 @@ const App = () => {
         {/* All.This */}
         <Route path="/all-this" element={<AllThis />} />
         <Route path="/all-this/this-me" element={<ThisMePage />} />
+        <Route path="/all-this/this-wallet" element={<ThisWallet />} />
+        <Route path="/all-this/this-img" element={<ThisImg />} />
+        <Route path="/all-this/this-audio" element={<ThisAudio />} />
+        <Route path="/all-this/this-blockchain" element={<ThisBlockchain />} /> 
+        <Route path="/all-this/this-pixel" element={<ThisPixel />} />
+        <Route path="/all-this/this-video" element={<ThisVideo />} />
+        <Route path="/all-this/this-DOM" element={<ThisDOM />} />
+        <Route path="/all-this/this-dictionaries" element={<ThisDictionaries />} />
+        <Route path="/all-this/this-env" element={<ThisEnv />} />
+        <Route path="/all-this/this-GUI" element={<ThisGUI />} />  
+        <Route path="/all-this/this-text" element={<ThisText />} />
+        <Route path="/all-this/this-url" element={<ThisURL />} />
+        <Route path="/all-this/this-dir" element={<ThisDir />} />
+        
         {/* Business Solutions */}
         <Route path="/business" element={<BusinessSolutions />} />
         <Route path="/business/ai" element={<BusinessAI />} />

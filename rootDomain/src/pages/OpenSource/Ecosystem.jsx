@@ -78,7 +78,7 @@ const Ecosystem = () => {
                     Networking solutions for fully independent networks and domain management.
                   </div>
                   <a href="https://netget.me" target="_blank" rel="noopener noreferrer" style={{ color: theme.palette.text.primary, fontSize: '14px', textDecoration: 'underline', marginTop: '4px', marginBottom: '4px' }}>
-                      Explore
+                      Stable Version Released 2.6.33
                   </a>
                   <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '0.5rem', gap: '10px' }}>
                     <a href="https://github.com/neurons-me/netget" target="_blank" rel="noopener noreferrer" style={iconLinkStyle}>
@@ -119,9 +119,14 @@ const Ecosystem = () => {
                     <strong>All.This</strong><br />
                     A framework for modular data structuring, optimizing ML pipelines.
                   </div>
-                  <a href="/all-this" rel="noopener noreferrer" style={{ color: theme.palette.text.primary, fontSize: '14px', textDecoration: 'underline', marginTop: '4px', marginBottom: '4px' }}>
-                      Explore
-                  </a>
+                  <div style={{ color: '#d38800', fontSize: '14px', fontWeight: 500, marginTop: '4px', marginBottom: '4px' }}>
+                    Under Heavy Development – Coming Soon
+                  </div>
+                  <div style={{ marginTop: '6px' }}>
+                    <Link to="/all-this" style={{ textDecoration: 'underline', fontSize: '14px', color: theme.palette.text.primary }}>
+                      Learn More
+                    </Link>
+                  </div>
                   <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '0.5rem', gap: '10px' }}>
                     <a href="https://github.com/neurons-me/all.this" target="_blank" rel="noopener noreferrer" style={iconLinkStyle}>
                       <FaGithub />
@@ -155,9 +160,9 @@ const Ecosystem = () => {
                     <strong>neurons.me</strong><br />
                     The intelligence core — providing visibility into AI processes and dataset evolution.
                   </div>
-                  <a href="https://neurons.me" target="_blank" rel="noopener noreferrer" style={{ color: theme.palette.text.primary, fontSize: '14px', textDecoration: 'underline', marginTop: '4px', marginBottom: '4px' }}>
-                      Explore
-                  </a>
+                  <div style={{ color: '#d38800', fontSize: '14px', fontWeight: 500, marginTop: '4px', marginBottom: '4px' }}>
+                    Under Heavy Development – Coming Soon
+                  </div>
                   <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '0.5rem', gap: '10px' }}>
                     <a href="https://github.com/neurons-me" target="_blank" rel="noopener noreferrer" style={iconLinkStyle}>
                       <FaGithub />
@@ -197,9 +202,9 @@ const Ecosystem = () => {
                     <strong>i.mLearning</strong><br />
                     Create, manage, and refine datasets for ML.
                   </div>
-                  <a href="https://mlearning.studio" target="_blank" rel="noopener noreferrer" style={{ color: theme.palette.text.primary, fontSize: '14px', textDecoration: 'underline', marginTop: '4px', marginBottom: '4px' }}>
-                      Explore
-                  </a>
+                  <div style={{ color: '#d38800', fontSize: '14px', fontWeight: 500, marginTop: '4px', marginBottom: '4px' }}>
+                    Under Heavy Development – Coming Soon
+                  </div>
                   <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '0.5rem', gap: '10px' }}>
                     <a href="https://github.com/neurons-me/i.mLearning" target="_blank" rel="noopener noreferrer" style={iconLinkStyle}>
                       <FaGithub />
@@ -233,9 +238,9 @@ const Ecosystem = () => {
                     <strong>Cleaker</strong><br />
                     A decentralized identity and authentication system.
                   </div>
-                  <a href="https://cleaker.me" target="_blank" rel="noopener noreferrer" style={{ color: theme.palette.text.primary, fontSize: '14px', textDecoration: 'underline', marginTop: '4px', marginBottom: '4px' }}>
-                      Explore
-                  </a>
+                  <div style={{ color: '#d38800', fontSize: '14px', fontWeight: 500, marginTop: '4px', marginBottom: '4px' }}>
+                    Under Heavy Development – Coming Soon
+                  </div>
                   <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '0.5rem', gap: '10px' }}>
                     <a href="https://github.com/neurons-me/Cleaker" target="_blank" rel="noopener noreferrer" style={iconLinkStyle}>
                       <FaGithub />

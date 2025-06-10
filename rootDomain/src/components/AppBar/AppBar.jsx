@@ -51,68 +51,55 @@ const manualRoutes = {
     "this.me": { icon: <Box component="img" src="/media/all-this/webp/this.me.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />, path: "/all-this/this-me" },
     "this.wallet": {
       icon: <Box component="img" src="/media/all-this/webp/this.wallet.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
-      path: "https://github.com/neurons-me/this.wallet",
-      external: true
+      path: "/all-this/this-wallet"
     },
     "this.img": {
       icon: <Box component="img" src="/media/all-this/webp/this.img.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
-      path: "https://github.com/neurons-me/this.img",
-      external: true
+      path: "/all-this/this-img"
     },
     "this.audio": {
       icon: <Box component="img" src="/media/all-this/webp/this.audio.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
-      path: "https://github.com/neurons-me/this.audio",
-      external: true
+      path: "/all-this/this-audio",
     },
     "this.blockchain": {
       icon: <Box component="img" src="/media/all-this/webp/this.blockchain.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
-      path: "https://github.com/neurons-me/this.blockchain",
-      external: true
+      path: "/all-this/this-blockchain"
     },
     "this.pixel": {
       icon: <Box component="img" src="/media/all-this/webp/this.pixel.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
-      path: "https://github.com/neurons-me/this.pixel",
-      external: true
+      path: "/all-this/this-pixel"
     },
     "this.video": {
       icon: <Box component="img" src="/media/all-this/webp/this.video.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
-      path: "https://github.com/neurons-me/this.video",
-      external: true
+      path: "/all-this/this-video"
     },
     "this.DOM": {
       icon: <Box component="img" src="/media/all-this/webp/this.DOM.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
-      path: "https://github.com/neurons-me/this.DOM",
-      external: true
+      path: "/all-this/this-DOM"
     },
     "this.dictionaries": {
       icon: <Box component="img" src="/media/all-this/webp/this.dictionaries.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
-      path: "https://github.com/neurons-me/this.dictionaries",
-      external: true
+      path: "/all-this/this-dictionaries"
     },
     "this.env": {
       icon: <Box component="img" src="/media/all-this/webp/this.env.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
-      path: "https://github.com/neurons-me/this.env",
-      external: true
+      path: "/all-this/this-env"
     },
     "this.GUI": {
       icon: <Box component="img" src="/media/all-this/webp/this.gui.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
-      path: "https://github.com/neurons-me/this.GUI",
-      external: true
+      path: "/all-this/this-GUI"
     },
     "this.text": {
       icon: <Box component="img" src="/media/all-this/webp/this.text.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
-      path: "https://github.com/neurons-me/this.text",
-      external: true
+      path: "/all-this/this-text"
     },
     "this.url": {
       icon: <Box component="img" src="/media/all-this/webp/this.url.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
-      path: "https://github.com/neurons-me/this.url",
-      external: true
+      path: "/all-this/this-url"
     },
     "this.dir": {
       icon: <Box component="img" src="/media/all-this/webp/this.dir.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />,
-      path: "https://github.com/neurons-me/this.dir",
-      external: true
+      path: "/all-this/this-dir"
     }
   },
   "Netget": {

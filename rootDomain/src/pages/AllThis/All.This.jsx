@@ -10,6 +10,19 @@ export default function AllThis() {
 
   return (
     <div style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      <div style={{
+        backgroundColor: theme.palette.mode === 'dark' ? '#2c1a00' : '#fff8e1',
+        border: '1px solid #f4b400',
+        color: '#f4b400',
+        padding: '10px 16px',
+        borderRadius: '4px',
+        fontWeight: 'bold',
+        marginBottom: '1.5rem',
+        textAlign: 'center',
+        fontSize: '0.9rem'
+      }}>
+        This repository is in continuous development and may be unstable.
+      </div>
       <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
         <Link to="/" style={{ display: 'inline-block', marginBottom: '20px' }}>
           <img
@@ -40,21 +53,27 @@ export default function AllThis() {
 
       <section style={{ marginBottom: '2rem' }}>
         <h2 style={{ fontWeight: 'bold', fontSize: '1.5rem', marginBottom: '0.5rem' }}>
-          What is all.this?
+          What is all.this? 
         </h2>
         <p>
           <code>all.this</code> is a collection of modular JavaScript libraries designed to handle various types of data — from audio and images to text and blockchain interactions. It's the foundation for preparing and normalizing input for machine learning and AI applications.
         </p>
-        <div style={{ marginTop: '1rem', backgroundColor: '#f9f9f9', padding: '1rem', borderRadius: '6px', fontFamily: 'monospace' }}>
-          <div><strong>Include All.This modules to your npm project by running:</strong></div>
-          <div style={{ marginTop: '0.5rem', color: '#333' }}>npm install all.this</div>
+        <div style={{
+          marginTop: '12px',
+          backgroundColor: theme.palette.mode === 'dark' ? '#111' : '#f5f5f5',
+          border: `1px solid ${theme.palette.divider}`,
+          borderRadius: '6px',
+          padding: '12px',
+          width: '55%',
+          display: 'inline-block',
+          textAlign: 'left',
+          fontFamily: 'monospace',
+          fontSize: '0.95rem',
+          color: theme.palette.text.primary,
+        }}>
+          <div>npm install all.this</div>
         </div>
-        <div style={{ marginTop: '1rem', backgroundColor: '#f1f1f1', padding: '1rem', borderRadius: '6px', fontFamily: 'monospace' }}>
-          <div><strong>Example:</strong></div>
-          <pre style={{ marginTop: '0.5rem' }}>
-            <code>{`import Me from 'all.this/me';`}</code>
-          </pre>
-        </div>
+  
       </section>
 
       <section style={{ marginTop: '3rem' }}>
