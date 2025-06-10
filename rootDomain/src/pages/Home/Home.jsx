@@ -45,10 +45,16 @@ const Home = () => {
       </div>
 
       <div style={{ marginTop: '42px' }}>
-        <Link to="/business-solutions" style={{ ...dynamicButtonStyle, marginRight: '12px' }}>
+        <Link
+          to="/business-solutions"
+          style={{ ...dynamicButtonStyle, marginRight: '12px', marginTop: '12px', marginBottom: '12px' }}
+        >
           Explore Business Solutions
         </Link>
-        <Link to="/open-source" style={{ ...dynamicButtonStyle, marginRight: '12px' }}>
+        <Link
+          to="/open-source"
+          style={{ ...dynamicButtonStyle, marginRight: '12px', marginTop: '12px', marginBottom: '12px' }}
+        >
           Explore Open Source Libraries
         </Link>
         

@@ -101,7 +101,7 @@ const AllThisOptions = () => {
       sx={{
         maxWidth: "1000px",
         margin: "0 auto",
-        padding: 2,
+        padding: .89,
       }}
     >
       {/* Compact Grid of Items */}
