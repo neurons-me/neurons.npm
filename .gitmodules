@@ -1,0 +1,3 @@
+[submodule "packages/npm/neurons.me"]
+	path = packages/npm/neurons.me
+	url = https://github.com/neurons-me/neurons.me.git

@@ -1,0 +1,1 @@
+/Users/abellae/Desktop/Neuroverse/https-neurons/daemon/target/package/neurons-me-0.1.0/target/debug/neurons-me: /Users/abellae/Desktop/Neuroverse/https-neurons/daemon/target/package/neurons-me-0.1.0/src/main.rs
