@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Downloads — Neurons.me Ecosystem</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      text-align: center;
+      padding-top: 40px;
+    }
+
+    header {
+      padding: 20px;
+    }
+
+    header img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 34px;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin: 0;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 0.95rem;
+      max-width: 480px;
+      margin: 8px auto 20px;
+      color: #555;
+    }
+
+    .download-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .download-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      min-width: 200px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #333;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .download-button:hover {
+      background-color: #eee;
+      transform: scale(1.02);
+    }
+
+    .download-button img {
+      width: 18px;
+      height: 18px;
+      margin-right: 8px;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.8rem;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      .download-button {
+        min-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://neurons.me/neurons.me.png" alt="Neurons Logo">
+    <h1>Download Neurons.me Ecosystem</h1>
+    <p>Install all required components (Cleaker + Monad) in one step. Select your operating system below:</p>
+  </header>
+
+  <div class="download-container">
+    <a class="download-button" href="https://downloads.neurons.me/mac/neurons-me-installer.dmg">
+      <img src="https://img.icons8.com/ios-filled/50/000000/mac-os.png" alt="Mac Icon" />
+      Download for MacOS
+    </a>
+    <a class="download-button" href="https://downloads.neurons.me/windows/neurons-me-installer.exe">
+      <img src="https://img.icons8.com/ios-filled/50/000000/windows8.png" alt="Windows Icon" />
+      Download for Windows
+    </a>
+    <a class="download-button" href="https://downloads.neurons.me/linux/neurons-me-installer.tar.gz">
+      <img src="https://img.icons8.com/ios-filled/50/000000/linux.png" alt="Linux Icon" />
+      Download for Linux
+    </a>
+  </div>
+
+  <footer>
+    © 2025 neurons.me 
+  </footer>
+</body>
+</html>

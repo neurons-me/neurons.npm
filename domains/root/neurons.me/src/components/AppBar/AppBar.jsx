@@ -37,9 +37,10 @@ const drawerWidth = 240;
 const manualRoutes = {
   "Home": {
     "Home": "/home",
+    "Download": "/install-me",
     "About": "/about",
     "Contact": "/contact"
-  },
+    },
   "Open Source": {
     "Ecosystem": { icon: <PublicIcon sx={{ mr: 1, color: '#888' }} />, path: "/open-source/ecosystem" },
     "Roadmap": { icon: <MapIcon sx={{ mr: 1, color: '#888' }} />, path: "/open-source/roadmap" },

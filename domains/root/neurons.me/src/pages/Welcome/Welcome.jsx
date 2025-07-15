@@ -1,7 +1,15 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom'; // Import Link for routing
 import './css/styles.css'; // Your existing CSS
-import IconFooter from '../../components/Footer/IconFooter'; // Import the IconFooter component
+//import IconFooter from '../../components/Footer/IconFooter'; // Import the IconFooter component
 const Welcome = () => {
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.type = 'module';
+        script.src = '/monad.js';
+        document.body.appendChild(script);
+    }, []);
+
     return (
         <div className="welcome-page">
             {/* Background Video */}
@@ -22,8 +30,8 @@ const Welcome = () => {
                 <Link to="/home" className="btn">Explore</Link>
                 </div>
             </div>
-            {/* Render the IconFooter here */}
-            <IconFooter/>
+            {/* Render the IconFooter here <IconFooter/>*/}
+             <monad-ai></monad-ai>
             {/* README Modal (Triggered by ⌘ Icon) */}
         </div>
     );

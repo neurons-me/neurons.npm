@@ -4,6 +4,7 @@ import Welcome from './pages/Welcome/Welcome';
 import TermsAndConditions from './components/Neurons/TermsAndConditions'; // Import TermsAndConditions
 import PrivacyPolicy from './components/Neurons/PrivacyPolicy'; // Import PrivacyPolicy
 import Layout from './pages/Layout';
+import InstallMe from './pages/Install/InstallMe';
 //Pages
 //Introduction
 import IntroductionHome from './pages/Home/Home';
@@ -83,6 +84,7 @@ const App = () => {
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         {/* Puedes seguir con las demás rutas aquí... */}
+        <Route path="/install-me" element={<InstallMe />} />
         </Route>
         {/* Add more routes as needed */}
         </Routes>

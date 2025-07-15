@@ -18,7 +18,7 @@ const Contact = () => {
       {/* Logo */}
       <Link to="/" style={imageLinkStyle}>
         <img 
-          src="/media/neurons-grey.png" 
+          src="https://neurons.me/neurons.me.png" 
           alt="Neurons Logo" 
           style={imageStyle}
         />
@@ -93,7 +93,7 @@ const pageStyle = {
 };
 
 const imageStyle = {
-  width: '120px',
+  width: '111px',
   height: 'auto',
   marginBottom: '5px',
   cursor: 'pointer',

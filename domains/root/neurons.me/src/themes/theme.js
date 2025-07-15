@@ -23,7 +23,7 @@ export const lightTheme = createTheme({
     },
   },
   typography: {
-    fontFamily: 'Roboto, sans-serif',
+    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
     pxToRem: (size) => `${size / 16}rem`,
   },
   custom: {
@@ -98,7 +98,7 @@ export const darkTheme = createTheme({
     border: 'rgb(39, 39, 49)', // <- Move here
   },
   typography: {
-    fontFamily: 'Roboto, sans-serif',
+    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
     pxToRem: (size) => `${size / 16}rem`,
   },
   components: {

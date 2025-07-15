@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>neurons-me-installer</string>
+    <key>CFBundleDisplayName</key>
+    <string>neurons.me Installer</string>
+    <key>CFBundleExecutable</key>
+    <string>monad.ai</string>
+    <key>CFBundleIconFile</key>
+    <string>installer</string>
+    <key>CFBundleIdentifier</key>
+    <string>me.neurons.installer</string>
+    <key>CFBundleVersion</key>
+    <string>0.1.1</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleSignature</key>
+    <string>NRON</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+        <string>MacOSX</string>
+    </array>
+    <key>LSMinimumSystemVersion</key>
+    <string>10.12</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>DMGBackground</key>
+    <string>background.tiff</string>
+</dict>
+</plist>
