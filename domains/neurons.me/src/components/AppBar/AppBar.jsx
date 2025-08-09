@@ -30,6 +30,7 @@ import BrushIcon from '@mui/icons-material/Brush';
 import PublicIcon from '@mui/icons-material/Public';
 import MapIcon from '@mui/icons-material/Map';
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
+import DescriptionIcon from '@mui/icons-material/Description';
 import { useThemeToggle } from '../../context/ThemeContext';
 
 const drawerWidth = 240;
@@ -46,6 +47,10 @@ const manualRoutes = {
     "Roadmap": { icon: <MapIcon sx={{ mr: 1, color: '#888' }} />, path: "/open-source/roadmap" },
     "How to Contribute": { icon: <VolunteerActivismIcon sx={{ mr: 1, color: '#888' }} />, path: "/open-source/contributing" },
     //"Governance": "/open-source/governance",
+  },
+  "Me-Protocol": {
+    "Me Protocol RFC": { icon: <DescriptionIcon sx={{ mr: 1, color: '#888' }} />, path: "/me-protocol-rfc" },
+    "Whitepaper": { icon: <DescriptionIcon sx={{ mr: 1, color: '#888' }} />, path: "/me-protocol-whitepaper" }
   },
   "All.This": {
     "all.this": { icon: <Box component="img" src="/media/all-this/webp/all.this.webp" sx={{ width: 22, height: 22, mr: 1, opacity: 0.9 }} />, path: "/all-this/" },
@@ -138,6 +143,8 @@ export default function NavBar() {
       setSelectedSection('Business Solutions');
     } else if (location.pathname.startsWith('/all-this')) {
       setSelectedSection('All.This');
+    } else if (location.pathname.startsWith('/me-protocol')) {
+      setSelectedSection('Me-Protocol');
     } else {
       setSelectedSection('Home');
     }
@@ -165,11 +172,13 @@ export default function NavBar() {
               else if (section === 'All.This') navigate('/all-this');
               else if (section === 'Netget') window.open('https://netget.me', '_blank');
               else if (section === 'Business Solutions') navigate('/business-solutions');
+              else if (section === 'Me-Protocol') navigate('/me-protocol-rfc');
             }}
           >
             <MenuItem value="Home">Home</MenuItem>
             <MenuItem value="Business Solutions">Business Solutions</MenuItem>
             <MenuItem value="Open Source">Open Source Tech</MenuItem>
+            <MenuItem value="Me-Protocol">Me-Protocol</MenuItem>
             <MenuItem value="All.This">All.This</MenuItem>
             <MenuItem value="Netget">Netget</MenuItem>
           </Select>

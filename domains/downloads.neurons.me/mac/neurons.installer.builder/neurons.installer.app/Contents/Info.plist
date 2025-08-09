@@ -2,6 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    
     <key>CFBundleName</key>
     <string>neurons-me-installer</string>
     <key>CFBundleDisplayName</key>
@@ -26,7 +27,20 @@
     <string>10.12</string>
     <key>NSHighResolutionCapable</key>
     <true/>
+    <key>LSUIElement</key>
+    <true/>
     <key>DMGBackground</key>
     <string>background.tiff</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>.Me Protocol</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>me</string>
+            </array>
+        </dict>
+    </array>
 </dict>
 </plist>

@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "title": "neurons.me",
+    "subtitle": "Deviens Algorithmique",
+    "explore": "Explorer"
+  },
+  "ecosystem": {
+    "title": "L'Écosystème",
+    "paragraph": "neurons.me est un environnement algorithmique qui se connecte à vous."
+  },
+  "cta": {
+    "gettingStarted": "Commencer",
+    "whatIsAllThis": "Qu'est-ce que All.This ?",
+    "docs": "Documentation"
+  },
+  "services": {
+    "title": "Applications",
+    "description1": "Explorez nos applications.",
+    "description2": "Technologie ouverte et décentralisée pour tous."
+  },
+  "serviceHub": {
+    "title": "Service Hub",
+    "line1": "Solutions d'IA personnalisées.",
+    "line2": "Systèmes décentralisés et blockchain.",
+    "line3": "Développement web et mobile.",
+    "line4": "E-Commerce",
+    "scheduleCall": "Planifier un appel."
+  },
+  "blog": {
+    "title": "Blog",
+    "description1": "Idées, projets et réflexions de neurons.me",
+    "description2": "De la philosophie computationnelle aux implémentations pratiques."
+  },
+  "footer": {
+  "terms": "Conditions d'utilisation",
+  "privacy": "Politique de confidentialité"
+}
+}

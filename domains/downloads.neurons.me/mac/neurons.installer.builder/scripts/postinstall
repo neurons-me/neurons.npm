@@ -1,0 +1,37 @@
+#!/bin/bash
+echo "Running postinstall..."
+
+# Add local.monad to /etc/hosts if not present
+if ! grep -q "local.monad" /etc/hosts; then
+  echo "127.0.0.1   local.monad" >> /etc/hosts
+  echo "local.monad added to /etc/hosts"
+else
+  echo "local.monad already present in /etc/hosts"
+fi
+
+# Set up Launch Agent to start Monad automatically
+LAUNCH_AGENT_DIR="/Users/$USER/Library/LaunchAgents"
+PLIST_NAME="me.neurons.monad.plist"
+
+mkdir -p "$LAUNCH_AGENT_DIR"
+cp "${PWD}/${PLIST_NAME}" "$LAUNCH_AGENT_DIR/"
+
+# Load the Launch Agent
+launchctl unload "$LAUNCH_AGENT_DIR/$PLIST_NAME" 2>/dev/null
+launchctl load "$LAUNCH_AGENT_DIR/$PLIST_NAME"
+
+echo "Launch Agent $PLIST_NAME installed and loaded."
+
+# Install Monad binary globally
+MONAD_SOURCE="${PWD}/../neurons.installer.app/Contents/MacOS/monad"
+MONAD_TARGET="/usr/local/bin/monad"
+
+if [ -f "$MONAD_SOURCE" ]; then
+  echo "Installing Monad binary to $MONAD_TARGET..."
+  install -m 755 "$MONAD_SOURCE" "$MONAD_TARGET"
+  echo "Monad binary installed successfully."
+else
+  echo "Warning: Monad binary not found at $MONAD_SOURCE"
+fi
+
+exit 0
