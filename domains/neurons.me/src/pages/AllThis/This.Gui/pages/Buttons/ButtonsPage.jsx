@@ -1,4 +1,5 @@
-import { PageTitle, Section, Gridx, CodeBlock } from "this.gui";
+import { GUI } from "all.this";
+const { TextTitle, Section, Gridx, CodeBlock} = GUI;
 import { Typography } from "@mui/material";
 
 export default function ButtonsPage() {
@@ -31,7 +32,7 @@ export default function ButtonsPage() {
 
   return (
     <>
-      <PageTitle
+      <TextTitle
         title="Buttons"
         subtitle="Interactive elements to trigger actions and submit forms."
       />

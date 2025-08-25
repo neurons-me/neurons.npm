@@ -1,5 +1,5 @@
-import { LilBox }  from 'this.gui';
-
+import { GUI } from "all.this";
+const {  LilBox, CodeBlock } = GUI;
 const LilBoxPage = () => {
   return (
     <div style={{ padding: '2rem' }}>
@@ -17,7 +17,7 @@ const LilBoxPage = () => {
       </ul>
 
       <h3>How to Use</h3>
-      <pre style={{ background: '#1e1e1e', color: '#ccc', padding: '1rem', borderRadius: '8px' }}>
+      <CodeBlock language="jsx">
 {`import LilBox from 'this.GUI/components/Cards/LilBox';
 
 // Example usage
@@ -26,8 +26,7 @@ const LilBoxPage = () => {
   icon={<GridIcon />} 
   href="/dashboard" 
 />`}
-      </pre>
-
+      </CodeBlock>
       <h3>Live Example</h3>
       <div style={{ marginTop: '2rem', width: '120px', height: '120px' }}>
         <LilBox

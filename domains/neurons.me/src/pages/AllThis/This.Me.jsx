@@ -220,10 +220,10 @@ export default function ThisMePage() {
           </li>
         </ol>
         <Box sx={{ marginTop: '2rem', display: 'flex', justifyContent: 'space-between' }}>
-        <Link to="/all-this" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
-          ← all.this
+        <Link to="/All.This" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
+          ← All.This
         </Link>
-        <Link to="/all-this/this-wallet" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
+        <Link to="/this.wallet" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
           this.wallet →
         </Link>
       </Box>

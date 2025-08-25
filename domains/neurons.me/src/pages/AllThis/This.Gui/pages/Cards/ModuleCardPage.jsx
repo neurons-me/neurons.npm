@@ -1,24 +1,24 @@
 import { Box, Typography, Grid } from '@mui/material';
-import { ModuleCard } from 'this.gui';
-
+import { GUI } from "all.this";
+const {  ModuleCard, CodeBlock  } = GUI;
 const demoModules = [
   {
     title: "Neural Model",
     description: "Train and visualize dynamic neural architectures.",
-    link: "https://neurons.me/docs/neural-model",
-    image: "/media/module-neural.png",
+    link: "#",
+    image: "/media/PixelGrid.webp",
   },
   {
     title: "Signal Flow",
     description: "Real-time signal propagation and transformation.",
-    link: "https://neurons.me/docs/signal-flow",
-    image: "/media/module-signal.png",
+    link: "#",
+    image: "/media/neurons-me-blog.webp",
   },
   {
     title: "Data Handler",
     description: "Intuitive control over how data flows through systems.",
-    link: "https://neurons.me/docs/data-handler",
-    image: "/media/module-data.png",
+    link: "#",
+    image: "/media/MonadLisa.webp",
   },
 ];
 
@@ -42,24 +42,14 @@ const ModuleCardPage = () => {
       <Typography variant="subtitle1" sx={{ fontWeight: '600', mb: 1 }}>
         Example Usage (React):
       </Typography>
-      <Box
-        component="pre"
-        sx={{
-          backgroundColor: '#1e1e1e',
-          color: '#ddd',
-          p: 2,
-          borderRadius: 2,
-          overflowX: 'auto',
-          mb: 4,
-        }}
-      >
+      <CodeBlock language="jsx">
 {`<ModuleCard
   title="Neural Model"
   description="Train and visualize dynamic neural architectures."
   link="https://neurons.me/docs/neural-model"
   image="/media/module-neural.png"
 />`}
-      </Box>
+      </CodeBlock>
 
       <Grid container spacing={3}>
         {demoModules.map((mod, index) => (

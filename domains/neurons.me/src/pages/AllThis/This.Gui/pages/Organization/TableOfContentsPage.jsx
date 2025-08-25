@@ -1,12 +1,7 @@
 //this.GUI/npm/src/pages/Docs/PageElements/TableOfContentsPage.js
 import { Typography } from "@mui/material";
-import {
-  PageTitle,
-  Section,
-  Gridx,
-  CodeBlock,
-  TableOfContents
-} from "this.gui";
+import { GUI } from "all.this";
+const { TextTitle, Section, Gridx, CodeBlock, TableOfContents} = GUI;
 
 export default function TableOfContentsPage() {
   const sampleHeadings = [
@@ -52,7 +47,7 @@ export default function TableOfContentsPage() {
       title: "Usage Example",
       content: (
         <CodeBlock language="jsx">
-{`import TableOfContents from "../../components/Pages/TableOfContents";
+{`import TableOfContents from this.gui;
 
 const headings = [
   { id: "intro", text: "Introduction", level: 1 },
@@ -76,7 +71,7 @@ const headings = [
 
   return (
     <>
-      <PageTitle
+      <TextTitle
         title="TableOfContents"
         subtitle="A dynamic TOC component to navigate through sections using headings."
       />

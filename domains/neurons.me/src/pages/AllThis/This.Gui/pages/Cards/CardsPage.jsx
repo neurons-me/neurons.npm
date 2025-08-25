@@ -1,5 +1,5 @@
-import { PageTitle, Section, Gridx, LilBox, ModuleCard } from "this.gui";
-
+import { GUI } from "all.this";
+const {  TextTitle, Section, Gridx, LilBox, ModuleCard } = GUI;
 export default function CardsPage() {
   const gridItems = [
     {
@@ -33,7 +33,7 @@ export default function CardsPage() {
 
   return (
     <>
-      <PageTitle
+      <TextTitle
         title="Cards"
         subtitle="Reusable card components like LilBox and ModuleCard."
       />

@@ -1,6 +1,7 @@
 // this.GUI/npm/src/pages/Docs/PageElements/TabsPage.jsx
 import { Typography } from "@mui/material";
-import { PageTitle, Section, Gridx, CodeBlock } from "this.gui";
+import { GUI } from "all.this";
+const { TextTitle, Section, Gridx, CodeBlock } = GUI;
 
 export default function GridPage() {
   const gridItems = [
@@ -46,7 +47,7 @@ export default function GridPage() {
 
   return (
     <>
-      <PageTitle
+      <TextTitle
         title="Gridx"
         subtitle="A responsive grid system to organize cards or content."
       />

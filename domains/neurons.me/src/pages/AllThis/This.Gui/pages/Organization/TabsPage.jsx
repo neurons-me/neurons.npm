@@ -1,6 +1,7 @@
 //this.GUI/npm/src/pages/Docs/PageElements/TableOfContentsPage.jsx
 import { Typography } from "@mui/material";
-import { PageTitle, Section, Gridx, CodeBlock, Tabs } from "this.gui";
+import { GUI } from "all.this";
+const { TextTitle, Section, Gridx, CodeBlock, Tabs} = GUI;
 
 export default function TabsPage() {
   const sampleTabs = [
@@ -43,7 +44,7 @@ export default function TabsPage() {
       title: "Usage Example",
       content: (
         <CodeBlock language="jsx">
-{`import Tabs from "../../components/Pages/Tabs";
+{`import Tabs from this.gui;
 
 const tabs = [
   { label: "Overview", content: <p>This is the overview content.</p> },
@@ -66,7 +67,7 @@ const tabs = [
 
   return (
     <>
-      <PageTitle
+      <TextTitle
         title="Tabs"
         subtitle="Organize content into easily switchable sections using tabs."
       />

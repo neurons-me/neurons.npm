@@ -1,5 +1,6 @@
 import { Typography } from "@mui/material";
-import { PageTitle, Section, Gridx, CodeBlock } from "this.gui";
+import { GUI } from "all.this";
+const { TextTitle, Section, Gridme, CodeBlock } = GUI;
 
 export default function CodeBlockPage() {
   const gridItems = [
@@ -36,7 +37,8 @@ export default function CodeBlockPage() {
       title: "Usage Example",
       content: (
         <CodeBlock language="jsx">
-{`import CodeBlock from "../../components/Pages/CodeBlock";
+{`import { GUI } from "all.this";
+const { CodeBlock } = GUI;
 
 // With explicit language:
 <CodeBlock language="jsx">
@@ -56,7 +58,7 @@ export default function CodeBlockPage() {
 
   return (
     <>
-      <PageTitle
+      <TextTitle
         title="CodeBlock"
         subtitle="A reusable component to display code snippets with consistent styling."
       />
@@ -66,7 +68,7 @@ export default function CodeBlockPage() {
           in a clean and readable format. By default, it highlights code as <code>javascript</code>,
           but you can pass a <code>language</code> prop to customize syntax highlighting.
         </Typography>
-        <Gridx items={gridItems} />
+        <Gridme items={gridItems} />
       </Section>
     </>
   );

@@ -1,7 +1,8 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './i18n';
-import { CustomThemeProvider } from 'this.gui';
+import { GUI } from 'all.this';
+const { CustomThemeProvider } = GUI;
 import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(

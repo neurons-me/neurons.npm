@@ -1,4 +1,5 @@
-import { PageTitle, Section, Gridx, CodeBlock } from "this.gui";
+import { GUI } from "all.this";
+const { TextTitle, Section, Gridx, CodeBlock} = GUI;
 import { Typography } from "@mui/material";
 
 export default function TopAndSideBarPage() {
@@ -110,7 +111,7 @@ export default function TopAndSideBarPage() {
 
   return (
     <>
-      <PageTitle
+      <TextTitle
         title="TopBarAndSideBar"
         subtitle="A combined top bar and side navigation for applications."
       />

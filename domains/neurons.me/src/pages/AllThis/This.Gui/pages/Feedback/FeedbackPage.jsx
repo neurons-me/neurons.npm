@@ -1,6 +1,6 @@
-import { PageTitle, Section, Gridx, LilBox } from "this.gui";
+import { GUI } from "all.this";
+const { Callout } = GUI;
 import { FiAlertCircle } from "react-icons/fi";
-import { Callout } from "this.gui";
 export default function FeedbackPage() {
   const items = [
     {
@@ -12,7 +12,7 @@ export default function FeedbackPage() {
 
   return (
     <>
-      <PageTitle
+      <TextTitle
         title="Feedback Components"
         subtitle="UI elements used to provide visual feedback, alerts, or information to the user."
       />

@@ -1,6 +1,5 @@
-
-
-import { PageTitle, Section, Gridx, LilBox } from "this.gui";
+import { GUI } from "all.this";
+const { PageTitle, Section, Gridx, LilBox } = GUI;
 import { FiSquare, FiGrid, FiMinus, FiLayout } from "react-icons/fi";
 
 export default function LayoutPage() {

@@ -48,67 +48,9 @@ const WhoWeArePage = () => {
         <p>
         <b>neurons.me</b> is a technology firm focused on developing <b>open-source</b> solutions and delivering <b>IT and media services</b>. 
         Our mission is to empower users and organizations with tools that are adaptable to their unique goals.</p>
-        <p>Our design philosophy centers on <b>open standards</b>, <b>auditability</b>, and <b>user empowerment</b>. 
-        We build tools that allow users to <b>own their data</b>, 
-        <b>understand their systems</b>, and <b>shape their outcomes</b>.
-      </p>
       <p>
       Driven by the idea that <b>intelligence</b> should be <b>visible</b>, <b>explainable</b>, and shaped by those it serves.
       </p>
-
-      <div style={{ marginTop: '42px' }}>
-        <Button
-          component={Link}
-          to="/business-solutions"
-          variant="outlined"
-          sx={{
-            marginRight: '12px',
-            marginTop: '12px',
-            marginBottom: '12px',
-            textTransform: 'none',
-          }}
-        >
-          Business Solutions
-        </Button>
-        <Button
-          component={Link}
-          to="/open-source"
-          variant="outlined"
-          sx={{
-            marginRight: '12px',
-            marginTop: '12px',
-            marginBottom: '12px',
-            textTransform: 'none',
-          }}
-        >
-        Open Source
-        </Button>
-    
-      </div>
-
-  <div style={clientSectionStyle}>
-        <p style={{ marginBottom: '21px', fontWeight: 'bold' }}>Trusted by:</p>
-        <div style={clientLogoContainerStyle}>
-          <a href="https://davidlachapelleamor.com/exposicion/#colaboradores" target="_blank" rel="noopener noreferrer">
-            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/eluniversal/7WVN43LAWJC23MRHXYKYOFWNLA.jpg" alt="David LaChapelle" style={clientLogoStyle} />
-          </a>
-          <a href="https://www.linkedin.com/company/auto-traslados-sin-rodar/" target="_blank" rel="noopener noreferrer">
-            <img src="/media/auto_traslados_sin_rodar_logo_neurons_me-removebg-preview.png" alt="Auto Traslados Sin Rodar" style={clientLogoStyle} />
-          </a>
-          <a href="https://www.flaunt.com/" target="_blank" rel="noopener noreferrer">
-            <img src="https://d3g9pb5nvr3u7.cloudfront.net/sites/53d11ffdc15252005dffeb73/1497222710/256.jpg" alt="Flaunt Magazine" style={clientLogoStyle} />
-          </a>
-          <a href="https://www.linkedin.com/company/fulltrailer/" target="_blank" rel="noopener noreferrer">
-            <img src="https://media.licdn.com/dms/image/v2/D560BAQGI7dNK-Y2QQg/company-logo_100_100/B56ZWvKMXUHEAQ-/0/1742400441107/fulltrailer_logo?e=1754524800&amp;v=beta&amp;t=fJTY6ajDfVa219pO87twAA5AclbEzG2u41jBng0s_sQ" alt="Fulltrailer" style={clientLogoStyle} />
-          </a>
-          <a href="https://www.hyundaisureste.mx" target="_blank" rel="noopener noreferrer">
-            <img src="media/hyundai.png" alt="Hyundai Sureste México" style={clientLogoStyle} />
-          </a>
-          <a href="https://www.facebook.com/MexicoEncuestaOficial/" target="_blank" rel="noopener noreferrer">
-            <img src="/media/mexicoEncuesta.png" alt="México Encuesta Oficial" style={clientLogoStyle} />
-          </a>
-        </div>
-      </div>
       </div>
       )}
     </div>

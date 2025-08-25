@@ -1,6 +1,7 @@
 // this.GUI/npm/src/pages/Docs/PageElements/TabsPage.jsx
 import { Typography } from "@mui/material";
-import { PageTitle, Section, Gridx, CodeBlock } from "this.gui";
+import { GUI } from "all.this";
+const { TextTitle, Section, Gridx, CodeBlock } = GUI;
 
 export default function ContainersPage() {
   const gridItems = [
@@ -51,7 +52,7 @@ export default function MyPage() {
 
   return (
     <>
-      <PageTitle
+      <TextTitle
         title="PageContainer"
         subtitle="A standardized responsive container for page content."
       />

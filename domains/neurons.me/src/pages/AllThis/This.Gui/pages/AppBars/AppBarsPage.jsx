@@ -1,5 +1,6 @@
-import { PageTitle, Section, Gridx, CodeBlock } from "this.gui";
+import { GUI } from "all.this";
 import { Typography, Box } from "@mui/material";
+const { TextTitle, Section, Gridx, CodeBlock } = GUI;
 // These components are illustrative only — not real components.
 // AppBarsPage serves as a landing introduction to the available AppBars.
 
@@ -57,7 +58,7 @@ export default function AppBarsPage() {
 
   return (
     <>
-      <PageTitle
+      <TextTitle
         title="AppBars"
         subtitle="Minimal and functional top navigation components."
       />

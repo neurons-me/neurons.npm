@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { FaGithub, FaNpm } from 'react-icons/fa';
@@ -100,11 +99,11 @@ const ThisWallet = () => {
       </Box>
 
       <Box sx={{ marginTop: '2rem', display: 'flex', justifyContent: 'space-between' }}>
-        <Link to="/all-this/this-me" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
+        <Link to="/this.me" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
           ← this.me
         </Link>
-        <Link to="/all-this/this-img" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
-          this.img →
+        <Link to="/this.GUI" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
+          this.GUI →
         </Link>
       </Box>
 

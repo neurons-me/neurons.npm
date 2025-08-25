@@ -1,11 +1,7 @@
 //pages/Minimal.jsx
 import { Typography } from "@mui/material";
-import { 
-  PageTitle, 
-  Section, 
-  Gridx, 
-  CodeBlock 
-} from "this.gui";
+import { GUI } from "all.this";
+const { TextTitle, Section, Gridx, CodeBlock } = GUI;
 
 export default function MinimalPage() {
   const gridItems = [
@@ -58,7 +54,7 @@ export default function MinimalPage() {
 
   return (
     <>
-      <PageTitle
+      <TextTitle
         title="Minimal Layout"
         subtitle="A clean, lightweight layout with top navigation and standardized container."
       />

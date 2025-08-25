@@ -1,11 +1,12 @@
 // this.GUI/npm/src/pages/Docs/PageElements/SectionPage.jsx
 import { Typography } from "@mui/material";
-import { PageTitle, Section, CodeBlock } from "this.gui";
+import { GUI } from "all.this";
+const { TextTitle, Section, CodeBlock } = GUI;
 
 export default function SectionPage() {
   return (
     <>
-      <PageTitle
+      <TextTitle
         title="Section"
         subtitle="A semantic and styled section wrapper for organizing content in pages."
       />

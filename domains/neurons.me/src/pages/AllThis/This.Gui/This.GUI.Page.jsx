@@ -1,7 +1,7 @@
 import { Box, Typography} from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
-import { Quote, LilBox } from 'this.gui';
-import { Gridme } from 'this.gui';
+import { GUI } from 'all.this';
+const { TextQuote, LilBox, Gridme } = GUI; 
 import { FiNavigation, FiBox, FiLayers, FiCode, FiMessageCircle, FiImage, FiList, FiType, FiGrid } from 'react-icons/fi';
 
 const ThisGUIPage = () => {
@@ -17,9 +17,9 @@ const ThisGUIPage = () => {
       <Typography variant="h4" sx={{ fontWeight: 'bold', marginBottom: '1rem' }}>
         This.GUI
       </Typography>
-      <Quote>
+      <TextQuote>
         Build Interfaces Easily
-      </Quote>
+      </TextQuote>
       <Typography variant="body1" sx={{ marginTop: '1rem' }}>
         Generate Dynamic User Interfaces.<br />
         A collection of ready-to-use declarative components that look good and just work.
@@ -51,10 +51,10 @@ const ThisGUIPage = () => {
 
       <Box sx={{ marginTop: '2rem', display: 'flex', justifyContent: 'space-between' }}>
         <RouterLink to="/this.env" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
-          ← this.env
+          ← this.wallet
         </RouterLink>
-        <RouterLink to="/this.text" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
-          this.text →
+        <RouterLink to="/this.env" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
+          this.env →
         </RouterLink>
       </Box>
     </Box>

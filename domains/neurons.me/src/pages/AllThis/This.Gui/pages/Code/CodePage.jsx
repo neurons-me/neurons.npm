@@ -1,6 +1,6 @@
-import { PageTitle, Section, Gridx } from "this.gui";
 import { FiTerminal, FiCodepen, FiCpu } from "react-icons/fi";
-import { LilBox } from "this.gui";
+import { GUI } from "all.this";
+const { TextTitle, Section, Gridx  } = GUI;
 
 export default function CodePage() {
   const items = [
@@ -23,7 +23,7 @@ export default function CodePage() {
 
   return (
     <>
-      <PageTitle
+      <TextTitle
         title="Code Components"
         subtitle="Interactive and display components for code representation, live execution, and sharing."
       />

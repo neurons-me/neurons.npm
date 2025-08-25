@@ -108,11 +108,11 @@ const ThisEnv = () => {
       </Box>
 
       <Box sx={{ marginTop: '2rem', display: 'flex', justifyContent: 'space-between' }}>
-        <RouterLink to="/all-this/this-dictionaries" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
-          ← this.dictionaries
+        <RouterLink to="/this.GUI" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
+          ← this.GUI
         </RouterLink>
-        <RouterLink to="/all-this/this-gui" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
-          this.GUI →
+        <RouterLink to="/All.This" style={{ color: '#009a89', textDecoration: 'none', fontWeight: 'bold' }}>
+          All.This →
         </RouterLink>
       </Box>
 

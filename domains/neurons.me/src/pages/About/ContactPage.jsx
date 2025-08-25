@@ -38,43 +38,7 @@ const ContactPage = () => {
           <FaLinkedinIn />
         </a>
       </div>
-      <a 
-        href="https://wa.me/527291671525?text=neurons.me%20-%20Info%20Request" 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        style={{
-          marginTop: '20px',
-          display: 'inline-block',
-          padding: '10px 20px',
-          border: '2px solid rgb(0, 154, 137)',
-          color: 'rgb(0, 154, 137)',
-          borderRadius: '6px',
-          textDecoration: 'none',
-          fontWeight: 'bold',
-          backgroundColor: 'transparent'
-        }}
-      >
-        Chat on WhatsApp
-      </a>
-      <Link 
-        to="/schedule" 
-        style={{
-          marginTop: '24px',
-          display: 'inline-block',
-          padding: '12px 24px',
-          marginLeft: '12px',
-          backgroundColor: 'rgb(0, 154, 137)',
-          color: 'white',
-          borderRadius: '6px',
-          textDecoration: 'none',
-          fontWeight: 'bold',
-          transition: 'background-color 0.3s ease',
-        }}
-        onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'rgb(0, 130, 120)'}
-        onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'rgb(0, 154, 137)'}
-      >
-        Schedule a Call
-      </Link>
+    
     </div>
   );
 };

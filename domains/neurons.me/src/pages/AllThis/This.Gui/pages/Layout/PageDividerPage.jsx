@@ -1,12 +1,7 @@
 // this.GUI/npm/src/pages/Docs/PageElements/TabsPage.jsx
 import { Typography } from "@mui/material";
-import {
-  PageTitle,
-  Section,
-  Gridx,
-  CodeBlock,
-  PageDivider
-} from "this.gui";
+import { GUI } from "all.this";
+const { TextTitle, Section, Gridx, CodeBlock, PageDivider} = GUI;
 
 export default function PageDividerPage() {
   const gridItems = [
@@ -69,7 +64,7 @@ export default function PageDividerPage() {
 
   return (
     <>
-      <PageTitle
+      <TextTitle
         title="PageDivider"
         subtitle="A simple component to separate sections with consistent spacing."
       />
