@@ -1,1 +1,0 @@
-Drag the Neurons Installer App Icon to the Applications folder.

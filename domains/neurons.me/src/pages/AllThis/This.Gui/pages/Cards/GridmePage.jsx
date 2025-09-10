@@ -1,7 +1,7 @@
 // src/pages/AllThis/This.Gui/pages/Cards/GridmePage.jsx
 import { Box, Typography } from "@mui/material";
 import { GUI } from "all.this";
-const { Gridme, LilBox } = GUI;
+const { Gridme, LilBox, CodeBlock, TextTitle, Section, Gridx } = GUI;
 export default function GridmePage() {
   const gridItems = [
     {

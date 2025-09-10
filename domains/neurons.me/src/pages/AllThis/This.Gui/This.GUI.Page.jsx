@@ -9,7 +9,7 @@ const ThisGUIPage = () => {
     <Box sx={{ padding: 4, textAlign: 'center' }}>
       <Box
         component="img"
-        src="/media/all-this/webp/this.GUI.neurons.me.webp"
+        src="/media/all-this/this.GUI.png"
         alt="this.gui"
         sx={{ maxWidth: '277px', marginBottom: 2 }}
       />

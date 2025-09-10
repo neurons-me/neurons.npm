@@ -53,7 +53,7 @@ export default function AllThis() {
               title: ".GUI",
               description: "Custom GUI components.",
               link: "/this.GUI",
-              image: "/media/all-this/webp/this.GUI.neurons.me.webp",
+              image: "/media/all-this/this.GUI.png",
             }
           ].map((item, index) => (
             <Grid item xs={6} sm={4} md={3} key={index}>

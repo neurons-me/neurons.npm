@@ -33,7 +33,7 @@ export const MAIN_SIDEBAR_LINKS = {
           {
             label: ".GUI",
             path: "/this.GUI",
-            icon: () => <img src="/media/all-this/webp/this.gui.webp" alt="this.GUI" style={{ width: 20, height: 20 }} />
+            icon: () => <img src="/media/all-this/this.GUI.png" alt="this.GUI" style={{ width: 20, height: 20 }} />
           },
           {
             label: ".env",

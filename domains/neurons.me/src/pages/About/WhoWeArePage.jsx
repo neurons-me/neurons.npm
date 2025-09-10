@@ -16,7 +16,7 @@ const WhoWeArePage = () => {
       <Link to="/" style={imageLinkStyle}>
         <img src="https://neurons.me/neurons.me.png" alt="Neurons Logo" style={imageStyle} />
       </Link>
-      <h1 style={{ fontFamily: 'monospace', whiteSpace: 'nowrap', overflow: 'hidden', borderRight: '0.15em solid orange', animation: 'typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite' }}>{'>'}whois neurons.me</h1>
+      <h1 style={{ fontFamily: 'monospace', whiteSpace: 'nowrap', overflow: 'hidden', borderRight: '0.15em solid orange', animation: 'typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite' }}>{'>'} whois neurons.me</h1>
       {showOutput && (
         <div
           id="whois-output"
