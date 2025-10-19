@@ -1,7 +1,7 @@
 {
   "name": "neurons.me",
-  "version": "2.9.25",
-  "description": "A dynamic modulator system for neural networks.",
+  "version": "3.0.1",
+  "description": "A modular system for neural networks.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suiGn/neurons.me.git"
+    "url": "git+https://github.com/neurons-me/neurons.npm"
   },
   "homepage": "https://www.npmjs.com/package/neurons.me",
-  "docs": "https://suiGn.github.io/neurons.me",
+  "docs": "https://neurons-me.github.io/neurons.me",
   "author": "suiGN",
   "license": "MIT",
   "type": "module",
