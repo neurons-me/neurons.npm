@@ -1,7 +1,0 @@
-README.md
-setup.py
-neurons/__init__.py
-neurons.me.egg-info/PKG-INFO
-neurons.me.egg-info/SOURCES.txt
-neurons.me.egg-info/dependency_links.txt
-neurons.me.egg-info/top_level.txt
