@@ -1,5 +1,5 @@
 {
-  "name": "@neurons-me/neurons.me",
+  "name": "neurons.me",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
