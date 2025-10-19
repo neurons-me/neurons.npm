@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "version": "3.0.1",
+  "version": "3.0.21",
   "description": "A modular system for neural networks.",
   "main": "index.js",
   "scripts": {
