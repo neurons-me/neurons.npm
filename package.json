@@ -1,13 +1,15 @@
 {
   "name": "neurons.me",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+  "registry": "https://npm.pkg.github.com/"
   },
   "version": "3.0.21",
   "description": "A modular system for neural networks.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "publish:npm": "npm publish --registry=https://registry.npmjs.org/",
+    "publish:github": "npm publish --registry=https://npm.pkg.github.com/"
   },
   "keywords": [
     "NeuralNetworks",

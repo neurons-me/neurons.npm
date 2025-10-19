@@ -1,0 +1,7 @@
+{
+  "name": "@neurons-me/neurons.me",
+  "version": "3.0.21",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
