@@ -1,4 +1,4 @@
-<img src="https://res.cloudinary.com/dkwnxf6gm/image/upload/v1760893633/npm-neurons-me_9b3e3a.jpg" alt="neurons.me logo" width="303" height="203">
+<img src="https://res.cloudinary.com/dkwnxf6gm/image/upload/v1760901388/bc75d34cf31ad2217a3cc607f41b884c022e8a7e0dc022e2678bbba5bac1cd59-removebg-preview-removebg-preview_w6c3il.png" alt="neurons.me logo" width="303" height="203">
 
 # **neurons.me**
 
