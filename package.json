@@ -1,9 +1,9 @@
 {
   "name": "neurons.me",
   "publishConfig": {
-  "registry": "https://npm.pkg.github.com/"
+  "registry": "https://registry.npmjs.org/"
   },
-  "version": "3.0.21",
+  "version": "3.0.28",
   "description": "A modular system for neural networks.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "type": "git",
     "url": "git+https://github.com/neurons-me/neurons.npm.git"
   },
-  "homepage": "https://github.com/neurons-me/neurons.npm#readme",
+  "homepage": "https://",
   "bugs": {
     "url": "https://github.com/neurons-me/neurons.npm/issues"
   },
