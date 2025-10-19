@@ -28,4 +28,4 @@ npm install
 **5. Start Development**
 Once dependencies are installed, you can begin development or integrate the submodule into your project.
 
-<img src="https://www.neurons.me/media/neurons-grey.png" alt="https://www.neurons.me/media/neurons-grey.png" style="zoom:50%;" />
+<img src="https://www.neurons.me/media/neurons-grey.png" alt="https://www.neurons.me/media/neurons-grey.png" style="zoom:42%;" />
