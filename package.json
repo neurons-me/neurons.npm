@@ -1,5 +1,8 @@
 {
-  "name": "neurons.me",
+  "name": "@neurons-me/neurons.me",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "version": "3.0.1",
   "description": "A modular system for neural networks.",
   "main": "index.js",
@@ -15,9 +18,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neurons-me/neurons.npm"
+    "url": "git+https://github.com/neurons-me/neurons.npm.git"
   },
-  "homepage": "https://www.npmjs.com/package/neurons.me",
+"homepage": "https://github.com/neurons-me/neurons.npm#readme",
+"bugs": {
+  "url": "https://github.com/neurons-me/neurons.npm/issues"
+  },
   "docs": "https://neurons-me.github.io/neurons.me",
   "author": "suiGN",
   "license": "MIT",
